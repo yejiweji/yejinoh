@@ -1,502 +1,502 @@
 <!DOCTYPE html>
 <html>
-<title>CSS Art - Dream House</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap">
-<style>
-body {
-  margin: 0;
-}
-/* DAY */
-.wrapper {
-  width: 735px;
-  background: #aed0e6;
-  overflow: hidden;
-}
-.artist_sign {
-  font-family: 'Comforter Brush', cursive;
-  font-size: 35px;
-  position: absolute;
-  left: 690px;
-  top: 635px;
-}
-/*  NIGHT */
-.wrapper:hover {
-  background-color: #11232e;
-  background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 3px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 4px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-}
-.wrapper:hover .cloud {
-  visibility: hidden;
-}
-.wrapper:hover .building, .wrapper:hover .building_left, .wrapper:hover .left_strip, .wrapper:hover .right_strip, .wrapper:hover .main_roof, .wrapper:hover .chimmney, .wrapper:hover .left_point_roof, .wrapper:hover .left_point, .wrapper:hover .roof_left, .wrapper:hover .roof_right, .wrapper:hover .plant, .wrapper:hover .window_shadetop, .wrapper:hover .floor, .wrapper:hover .floor_strip, .wrapper:hover .door_base {
-  filter: brightness(35%);
-}
-.wrapper:hover .window_base, .wrapper:hover .door_peep {
-  background: yellow;
-  -webkit-box-shadow: 0 0 30px #FFEA00;
-  -moz-box-shadow: 0 0 30px #FFEA00;
-  box-shadow: 0 0 30px #FFEA00;
-}
-.wrapper:hover .artist_sign {
-  color: white;
-}
-/* CLOUDS */
-.cloud {
-  margin-top: 65px;
-  width: 350px;
-  height: 120px;
-  background: #eceff1;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.05);
-  border-radius: 100px;
-}
-.cloud::after, .cloud::before {
-  content: "";
-  position: absolute;
-  background: inherit;
-  border-radius: inherit;
-}
-.cloud1::after {
-  width: 100px;
-  height: 100px;
-  top: -20px;
-  left: 50px;
-}
-.cloud1::before {
-  width: 180px;
-  height: 180px;
-  top: -70px;
-  left: 130px;
-}
-.cloud2::after {
-  width: 150px;
-  height: 80px;
-  top: 300px;
-  left: 30px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
-}
-.cloud2::before {
-  width: 100px;
-  height: 100px;
-  top: 260px;
-  left: 70px;
-}
-.cloud3::after {
-  width: 180px;
-  height: 80px;
-  top: 130px;
-  left: 500px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
-}
-.cloud3::before {
-  width: 90px;
-  height: 80px;
-  top: 100px;
-  left: 550px;
-}
-.cloud4::after {
-  width: 220px;
-  height: 70px;
-  top: 445px;
-  left: 610px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
-}
-.cloud4::before {
-  width: 90px;
-  height: 100px;
-  top: 410px;
-  left: 650px;
-}
-/* HOUSE */
-.house_wrapper {
-  width: 100%;
-  height: 635px;
-  position: relative;
-  top: -42px;
-}
-.building_left {
-  position: absolute;
-  z-index: 3;
-  width: 250px;
-  height: 450px;
-  left: 150px;
-  bottom: 10px;
-  background-color: #ffd65c;
-}
-.building {
-  position: absolute;
-  z-index: 2;
-  width: 350px;
-  height: 450px;
-  left: 200px;
-  bottom: 10px;
-  background-color: #fac218;
-}
-.left_strip {
-  position: absolute;
-  z-index: 4;
-  width: 70px;
-  height: 450px;
-  left: 150px;
-  bottom: 10px;
-  background-color: #ffa500;
-}
-.right_strip {
-  position: absolute;
-  z-index: 2;
-  width: 15px;
-  height: 450px;
-  left: 550px;
-  bottom: 10px;
-  background-color: #ffa500;
-}
-.main_roof {
-  position: absolute;
-  z-index: 6;
-  width: 417px;
-  height: 70px;
-  left: 149px;
-  bottom: 460px;
-  clip-path: polygon(0 calc(100% - 2.375px), 5% 0, 95% 0, 100% calc(100% - 2.375px), 100% 100%, 0 100%);
-  background-color: #055772;
-}
-.left_point_roof {
-  z-index: 8;
-  width: 200px;
-  height: 120px;
-  border-style: solid;
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  position: absolute;
-  bottom: 450px;
-  left: 206px;
-  background: #055772;
-}
-.left_point {
-  z-index: 8;
-  width: 195px;
-  height: 99px;
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  position: absolute;
-  bottom: 450px;
-  left: 212px;
-  background: #ffd65c;
-}
-.chimmney {
-  position: absolute;
-  z-index: 7;
-  width: 45px;
-  height: 80px;
-  left: 190px;
-  bottom: 500px;
-  background-color: #87aca3;
-}
-.roof_left {
-  position: absolute;
-  z-index: 10;
-  width: 200px;
-  height: 100px;
-  left: 210px;
-  bottom: 170px;
-  clip-path: polygon(0 calc(100% - 20.375px), 5% 0, 95% 0, 100% calc(100% - 20.375px), 100% 100%, 0 100%);
-  background-color: #055772;
-}
-.roof_right {
-  position: absolute;
-  z-index: 2;
-  width: 160px;
-  height: 80px;
-  left: 397px;
-  bottom: 160px;
-  clip-path: polygon(0 calc(100% - 20.375px), 5% 0, 95% 0, 100% calc(100% - 20.375px), 100% 100%, 0 100%);
-  background-color: #87aca3;
-}
-.big_window .window_base, .small_window .window_base {
-  z-index: 15;
-  width: 165px;
-  height: 105px;
-  position: absolute;
-  bottom: 45px;
-  left: 228px;
-  background: #f3ede0;
-}
-.big_window .vline_left, .small_window .vline_left {
-  z-index: 17;
-  width: 3px;
-  height: 105px;
-  position: absolute;
-  bottom: 45px;
-  left: 228px;
-  background: #ff9a14;
-}
-.big_window .vline_right, .small_window .vline_right {
-  z-index: 17;
-  width: 3px;
-  height: 105px;
-  position: absolute;
-  bottom: 45px;
-  left: 390px;
-  background: #ff9a14;
-}
-.big_window .vline_1, .small_window .vline_1 {
-  z-index: 17;
-  width: 6px;
-  height: 105px;
-  position: absolute;
-  bottom: 45px;
-  left: 260px;
-  background: #ff9a14;
-}
-.big_window .vline_2, .small_window .vline_2 {
-  z-index: 17;
-  width: 7px;
-  height: 105px;
-  position: absolute;
-  bottom: 45px;
-  left: 308px;
-  background: #ff9a14;
-}
-.big_window .vline_3, .small_window .vline_3 {
-  z-index: 17;
-  width: 7px;
-  height: 105px;
-  position: absolute;
-  bottom: 45px;
-  left: 355px;
-  background: #ff9a14;
-}
-.big_window .hline_top, .small_window .hline_top {
-  z-index: 17;
-  width: 165px;
-  height: 3px;
-  position: absolute;
-  bottom: 150px;
-  left: 228px;
-  background: #ff9a14;
-}
-.big_window .hline_bottom, .small_window .hline_bottom {
-  z-index: 19;
-  width: 165px;
-  height: 12px;
-  position: absolute;
-  bottom: 40px;
-  left: 228px;
-  background: #87aca3;
-}
-.big_window .hline, .small_window .hline {
-  z-index: 17;
-  width: 165px;
-  height: 7px;
-  position: absolute;
-  bottom: 115px;
-  left: 228px;
-  background: #ff9a14;
-}
-.small_window .window_base {
-  bottom: 320px;
-  left: 228px;
-  background: #f3ede0;
-}
-.small_window .vline_left, .small_window .vline_right, .small_window .vline_1, .small_window .vline_2, .small_window .vline_3 {
-  bottom: 320px;
-}
-.small_window .vline_left {
-  left: 228px;
-}
-.small_window .vline_right {
-  left: 390px;
-}
-.small_window .vline_1 {
-  left: 260px;
-}
-.small_window .vline_2 {
-  left: 308px;
-}
-.small_window .vline_3 {
-  left: 355px;
-}
-.small_window .hline_top {
-  bottom: 425px;
-  left: 228px;
-}
-.small_window .hline_bottom {
-  bottom: 309px;
-  left: 228px;
-}
-.small_window .hline {
-  bottom: 390px;
-  left: 228px;
-}
-.right_window .window_base {
-  z-index: 30;
-  width: 105px;
-  height: 110px;
-  border-radius: 100%;
-  position: absolute;
-  bottom: 295px;
-  left: 425px;
-  background: #f3ede0;
-}
-.right_window .window_out {
-  z-index: 40;
-  width: 105px;
-  height: 108px;
-  border-radius: 100%;
-  position: absolute;
-  bottom: 289px;
-  left: 419px;
-  border: 6px solid #ff9a14;
-}
-.right_window .vline {
-  z-index: 30;
-  width: 12px;
-  height: 108px;
-  position: absolute;
-  bottom: 289px;
-  left: 490px;
-  transform: rotate(17deg);
-  background: #87aca3;
-}
-.right_window .hline {
-  z-index: 30;
-  width: 80px;
-  height: 7px;
-  position: absolute;
-  bottom: 358px;
-  left: 428px;
-  transform: rotate(60deg);
-  background: #87aca3;
-}
-.floor {
-  width: 440px;
-  height: 50px;
-  background-color: #a8bf60;
-  position: absolute;
-  left: 135px;
-  bottom: -40px;
-  z-index: 0;
-}
-.floor_strip {
-  width: 415px;
-  height: 8px;
-  background-color: #93ac45;
-  position: absolute;
-  left: 150px;
-  bottom: 10px;
-  z-index: 28;
-}
-.door .door_base {
-  width: 50px;
-  height: 115px;
-  background-color: #175873;
-  position: absolute;
-  left: 450px;
-  bottom: 10px;
-  margin-left: -19px;
-  border: 4px solid #ff9a14;
-  z-index: 25;
-}
-.door .door_peep {
-  width: 30px;
-  height: 50px;
-  background-color: #f3ede0;
-  position: absolute;
-  left: 443px;
-  bottom: 60px;
-  border-radius: 100%;
-  border: 2px solid #87aca3;
-  z-index: 25;
-}
-.extras .plant {
-  z-index: 40;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 18px;
-  left: 505px;
-  background: #ff9a14;
-}
-.extras .window_detail .window_shadetop {
-  z-index: 45;
-  width: 70px;
-  height: 9px;
-  position: absolute;
-  bottom: 435px;
-  left: 275px;
-  background: #ffa500;
-}
-.extras .window_detail .window_shadetop2 {
-  width: 60px;
-  bottom: 420px;
-  left: 446px;
-}
-.extras .window_detail .door_shade {
-  width: 50px;
-  bottom: 145px;
-  left: 435px;
-}
-</style>
-<body>
-  <div class="wrapper">
-    <div class="artist_sign">yo.</div>
-    <div class="house_wrapper">
-      <div class="building_left"></div>
-      <div class="building"></div>
-      <div class="left_strip"></div>
-      <div class="right_strip"></div>
-      <div class="floor"></div>
-      <div class="floor_strip"></div>  
-      <div class="main_roof"></div>
-      <div class="chimmney"></div> 
-      <div class="left_point_roof"></div>
-      <div class="left_point"></div>
-      <div class="roof_left"></div>
-      <div class="roof_right"></div>
-      <div class="big_window">
-        <div class="window_base"></div>
-        <div class="vline_left"></div>
-        <div class="vline_right"></div>
-        <div class="vline_1"></div>
-        <div class="vline_2"></div>
-        <div class="vline_3"></div>
-        <div class="hline_top"></div>
-        <div class="hline_bottom"></div>
-        <div class="hline"></div>
-      </div>
-      <div class="small_window">
-        <div class="window_base"></div>
-        <div class="vline_left"></div>
-        <div class="vline_right"></div>
-        <div class="vline_1"></div>
-        <div class="vline_2"></div>
-        <div class="vline_3"></div>
-        <div class="hline_top"></div>
-        <div class="hline_bottom"></div>
-        <div class="hline"></div>
-      </div>
-      <div class="door">
-        <div class="door_base"></div>
-        <div class="door_peep"></div>
-      </div>
-      <div class="right_window">
-        <div class="window_base"></div>
-        <div class="window_out"></div>
-        <div class="vline"></div>
-        <div class="hline"></div>
-      </div>
-      <div class="extras">
-        <div class="plant"></div>
-        <div class="window_detail">
-          <div class="window_shadetop"></div>
-          <div class="window_shadetop window_shadetop2"></div>
-          <div class="window_shadetop door_shade"></div>
+  <title>Yejin Oh's CSS Art - Dream House</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap">
+  <style>
+  body {
+    margin: 0;
+  }
+  /* DAY */
+  .wrapper {
+    width: 735px;
+    background: #aed0e6;
+    overflow: hidden;
+  }
+  .artist_sign {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 35px;
+    position: absolute;
+    left: 690px;
+    top: 635px;
+  }
+  /*  NIGHT */
+  .wrapper:hover {
+    background-color: #11232e;
+    background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 3px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 4px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  }
+  .wrapper:hover .cloud {
+    visibility: hidden;
+  }
+  .wrapper:hover .building, .wrapper:hover .building_left, .wrapper:hover .left_strip, .wrapper:hover .right_strip, .wrapper:hover .main_roof, .wrapper:hover .chimmney, .wrapper:hover .left_point_roof, .wrapper:hover .left_point, .wrapper:hover .roof_left, .wrapper:hover .roof_right, .wrapper:hover .plant, .wrapper:hover .window_shadetop, .wrapper:hover .floor, .wrapper:hover .floor_strip, .wrapper:hover .door_base {
+    filter: brightness(35%);
+  }
+  .wrapper:hover .window_base, .wrapper:hover .door_peep {
+    background: yellow;
+    -webkit-box-shadow: 0 0 30px #FFEA00;
+    -moz-box-shadow: 0 0 30px #FFEA00;
+    box-shadow: 0 0 30px #FFEA00;
+  }
+  .wrapper:hover .artist_sign {
+    color: white;
+  }
+  /* CLOUDS */
+  .cloud {
+    margin-top: 65px;
+    width: 350px;
+    height: 120px;
+    background: #eceff1;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+  }
+  .cloud::after, .cloud::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    border-radius: inherit;
+  }
+  .cloud1::after {
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    left: 50px;
+  }
+  .cloud1::before {
+    width: 180px;
+    height: 180px;
+    top: -70px;
+    left: 130px;
+  }
+  .cloud2::after {
+    width: 150px;
+    height: 80px;
+    top: 300px;
+    left: 30px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  .cloud2::before {
+    width: 100px;
+    height: 100px;
+    top: 260px;
+    left: 70px;
+  }
+  .cloud3::after {
+    width: 180px;
+    height: 80px;
+    top: 130px;
+    left: 500px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  .cloud3::before {
+    width: 90px;
+    height: 80px;
+    top: 100px;
+    left: 550px;
+  }
+  .cloud4::after {
+    width: 220px;
+    height: 70px;
+    top: 445px;
+    left: 610px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .cloud4::before {
+    width: 90px;
+    height: 100px;
+    top: 410px;
+    left: 650px;
+  }
+  /* HOUSE */
+  .house_wrapper {
+    width: 100%;
+    height: 635px;
+    position: relative;
+    top: -42px;
+  }
+  .building_left {
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 450px;
+    left: 150px;
+    bottom: 10px;
+    background-color: #ffd65c;
+  }
+  .building {
+    position: absolute;
+    z-index: 2;
+    width: 350px;
+    height: 450px;
+    left: 200px;
+    bottom: 10px;
+    background-color: #fac218;
+  }
+  .left_strip {
+    position: absolute;
+    z-index: 4;
+    width: 70px;
+    height: 450px;
+    left: 150px;
+    bottom: 10px;
+    background-color: #ffa500;
+  }
+  .right_strip {
+    position: absolute;
+    z-index: 2;
+    width: 15px;
+    height: 450px;
+    left: 550px;
+    bottom: 10px;
+    background-color: #ffa500;
+  }
+  .main_roof {
+    position: absolute;
+    z-index: 6;
+    width: 417px;
+    height: 70px;
+    left: 149px;
+    bottom: 460px;
+    clip-path: polygon(0 calc(100% - 2.375px), 5% 0, 95% 0, 100% calc(100% - 2.375px), 100% 100%, 0 100%);
+    background-color: #055772;
+  }
+  .left_point_roof {
+    z-index: 8;
+    width: 200px;
+    height: 120px;
+    border-style: solid;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    position: absolute;
+    bottom: 450px;
+    left: 206px;
+    background: #055772;
+  }
+  .left_point {
+    z-index: 8;
+    width: 195px;
+    height: 99px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    position: absolute;
+    bottom: 450px;
+    left: 212px;
+    background: #ffd65c;
+  }
+  .chimmney {
+    position: absolute;
+    z-index: 7;
+    width: 45px;
+    height: 80px;
+    left: 190px;
+    bottom: 500px;
+    background-color: #87aca3;
+  }
+  .roof_left {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 100px;
+    left: 210px;
+    bottom: 170px;
+    clip-path: polygon(0 calc(100% - 20.375px), 5% 0, 95% 0, 100% calc(100% - 20.375px), 100% 100%, 0 100%);
+    background-color: #055772;
+  }
+  .roof_right {
+    position: absolute;
+    z-index: 2;
+    width: 160px;
+    height: 80px;
+    left: 397px;
+    bottom: 160px;
+    clip-path: polygon(0 calc(100% - 20.375px), 5% 0, 95% 0, 100% calc(100% - 20.375px), 100% 100%, 0 100%);
+    background-color: #87aca3;
+  }
+  .big_window .window_base, .small_window .window_base {
+    z-index: 15;
+    width: 165px;
+    height: 105px;
+    position: absolute;
+    bottom: 45px;
+    left: 228px;
+    background: #f3ede0;
+  }
+  .big_window .vline_left, .small_window .vline_left {
+    z-index: 17;
+    width: 3px;
+    height: 105px;
+    position: absolute;
+    bottom: 45px;
+    left: 228px;
+    background: #ff9a14;
+  }
+  .big_window .vline_right, .small_window .vline_right {
+    z-index: 17;
+    width: 3px;
+    height: 105px;
+    position: absolute;
+    bottom: 45px;
+    left: 390px;
+    background: #ff9a14;
+  }
+  .big_window .vline_1, .small_window .vline_1 {
+    z-index: 17;
+    width: 6px;
+    height: 105px;
+    position: absolute;
+    bottom: 45px;
+    left: 260px;
+    background: #ff9a14;
+  }
+  .big_window .vline_2, .small_window .vline_2 {
+    z-index: 17;
+    width: 7px;
+    height: 105px;
+    position: absolute;
+    bottom: 45px;
+    left: 308px;
+    background: #ff9a14;
+  }
+  .big_window .vline_3, .small_window .vline_3 {
+    z-index: 17;
+    width: 7px;
+    height: 105px;
+    position: absolute;
+    bottom: 45px;
+    left: 355px;
+    background: #ff9a14;
+  }
+  .big_window .hline_top, .small_window .hline_top {
+    z-index: 17;
+    width: 165px;
+    height: 3px;
+    position: absolute;
+    bottom: 150px;
+    left: 228px;
+    background: #ff9a14;
+  }
+  .big_window .hline_bottom, .small_window .hline_bottom {
+    z-index: 19;
+    width: 165px;
+    height: 12px;
+    position: absolute;
+    bottom: 40px;
+    left: 228px;
+    background: #87aca3;
+  }
+  .big_window .hline, .small_window .hline {
+    z-index: 17;
+    width: 165px;
+    height: 7px;
+    position: absolute;
+    bottom: 115px;
+    left: 228px;
+    background: #ff9a14;
+  }
+  .small_window .window_base {
+    bottom: 320px;
+    left: 228px;
+    background: #f3ede0;
+  }
+  .small_window .vline_left, .small_window .vline_right, .small_window .vline_1, .small_window .vline_2, .small_window .vline_3 {
+    bottom: 320px;
+  }
+  .small_window .vline_left {
+    left: 228px;
+  }
+  .small_window .vline_right {
+    left: 390px;
+  }
+  .small_window .vline_1 {
+    left: 260px;
+  }
+  .small_window .vline_2 {
+    left: 308px;
+  }
+  .small_window .vline_3 {
+    left: 355px;
+  }
+  .small_window .hline_top {
+    bottom: 425px;
+    left: 228px;
+  }
+  .small_window .hline_bottom {
+    bottom: 309px;
+    left: 228px;
+  }
+  .small_window .hline {
+    bottom: 390px;
+    left: 228px;
+  }
+  .right_window .window_base {
+    z-index: 30;
+    width: 105px;
+    height: 110px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 295px;
+    left: 425px;
+    background: #f3ede0;
+  }
+  .right_window .window_out {
+    z-index: 40;
+    width: 105px;
+    height: 108px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 289px;
+    left: 419px;
+    border: 6px solid #ff9a14;
+  }
+  .right_window .vline {
+    z-index: 30;
+    width: 12px;
+    height: 108px;
+    position: absolute;
+    bottom: 289px;
+    left: 490px;
+    transform: rotate(17deg);
+    background: #87aca3;
+  }
+  .right_window .hline {
+    z-index: 30;
+    width: 80px;
+    height: 7px;
+    position: absolute;
+    bottom: 358px;
+    left: 428px;
+    transform: rotate(60deg);
+    background: #87aca3;
+  }
+  .floor {
+    width: 440px;
+    height: 50px;
+    background-color: #a8bf60;
+    position: absolute;
+    left: 135px;
+    bottom: -40px;
+    z-index: 0;
+  }
+  .floor_strip {
+    width: 415px;
+    height: 8px;
+    background-color: #93ac45;
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+    z-index: 28;
+  }
+  .door .door_base {
+    width: 50px;
+    height: 115px;
+    background-color: #175873;
+    position: absolute;
+    left: 450px;
+    bottom: 10px;
+    margin-left: -19px;
+    border: 4px solid #ff9a14;
+    z-index: 25;
+  }
+  .door .door_peep {
+    width: 30px;
+    height: 50px;
+    background-color: #f3ede0;
+    position: absolute;
+    left: 443px;
+    bottom: 60px;
+    border-radius: 100%;
+    border: 2px solid #87aca3;
+    z-index: 25;
+  }
+  .extras .plant {
+    z-index: 40;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 18px;
+    left: 505px;
+    background: #ff9a14;
+  }
+  .extras .window_detail .window_shadetop {
+    z-index: 45;
+    width: 70px;
+    height: 9px;
+    position: absolute;
+    bottom: 435px;
+    left: 275px;
+    background: #ffa500;
+  }
+  .extras .window_detail .window_shadetop2 {
+    width: 60px;
+    bottom: 420px;
+    left: 446px;
+  }
+  .extras .window_detail .door_shade {
+    width: 50px;
+    bottom: 145px;
+    left: 435px;
+  }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="artist_sign">yo.</div>
+      <div class="house_wrapper">
+        <div class="building_left"></div>
+        <div class="building"></div>
+        <div class="left_strip"></div>
+        <div class="right_strip"></div>
+        <div class="floor"></div>
+        <div class="floor_strip"></div>  
+        <div class="main_roof"></div>
+        <div class="chimmney"></div> 
+        <div class="left_point_roof"></div>
+        <div class="left_point"></div>
+        <div class="roof_left"></div>
+        <div class="roof_right"></div>
+        <div class="big_window">
+          <div class="window_base"></div>
+          <div class="vline_left"></div>
+          <div class="vline_right"></div>
+          <div class="vline_1"></div>
+          <div class="vline_2"></div>
+          <div class="vline_3"></div>
+          <div class="hline_top"></div>
+          <div class="hline_bottom"></div>
+          <div class="hline"></div>
         </div>
+        <div class="small_window">
+          <div class="window_base"></div>
+          <div class="vline_left"></div>
+          <div class="vline_right"></div>
+          <div class="vline_1"></div>
+          <div class="vline_2"></div>
+          <div class="vline_3"></div>
+          <div class="hline_top"></div>
+          <div class="hline_bottom"></div>
+          <div class="hline"></div>
+        </div>
+        <div class="door">
+          <div class="door_base"></div>
+          <div class="door_peep"></div>
+        </div>
+        <div class="right_window">
+          <div class="window_base"></div>
+          <div class="window_out"></div>
+          <div class="vline"></div>
+          <div class="hline"></div>
+        </div>
+        <div class="extras">
+          <div class="plant"></div>
+          <div class="window_detail">
+            <div class="window_shadetop"></div>
+            <div class="window_shadetop window_shadetop2"></div>
+            <div class="window_shadetop door_shade"></div>
+          </div>
+        </div>
+        <div class="cloud cloud1"><div>
+        <div class="cloud cloud2"><div>
+        <div class="cloud cloud3"><div>
+        <div class="cloud cloud4"><div>
       </div>
-      <div class="cloud cloud1"><div>
-      <div class="cloud cloud2"><div>
-      <div class="cloud cloud3"><div>
-      <div class="cloud cloud4"><div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

@@ -1,0 +1,397 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* BODY */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* WRAPPERS */
+.outer_wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 800vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+/* GALLERY NAME */
+.gallery_sign {
+  position: absolute;
+  left: 50%;
+  padding: 3vh;
+  font-size: 5em;
+  width: 35vw;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+}
+.arrow_sign {
+  font-size: 2.2em;
+  animation: point 10s infinite;
+}
+
+@keyframes point {
+  0%, 50%, 100% {
+    -webkit-transform: translateX(-20%);
+    transform: translateX(-20%);
+  }
+  25%, 75% {
+    -webkit-transform: translateX(70%);
+    transform: translateX(70%);
+  }
+}
+
+/* RECEPTION */
+.receptionist {
+  position: absolute;
+  bottom: 34vh;
+  left: 22vw;
+  height: 14vh;
+  width: 8vw;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* TICKETING BOARD */
+#ticket_board {
+  width: 39vw;
+  color: white;
+  padding: 1vh;
+}
+#ticket_board caption {
+  font-size: 2.2em;
+}
+table {
+  width: 100%;
+}
+td, th {
+  text-align: left;
+}
+th {
+  font-size: 1.5em;
+  color: orange;
+}
+td a {
+  color: white;  
+  font-size: 1.5em;
+}
+
+/* GALLERY WALLS */
+.wall {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: 100vw 100vh;
+}
+.ticket_wall {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/ticket-booth.png");
+}
+.plain_wall {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/plain_wall.png");
+}
+.right_wall {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/right_wall.png");
+}
+.left_wall {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/left_wall.png");
+}
+.mid_wall {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/mid_wall.png");
+}
+.door_wall {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/door_wall.png");
+}
+
+/* SECURITY POLES */
+.pole {
+    background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/single_pole.png");
+  height: 50vh;
+}
+.poles {
+    background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/poles.png");
+  height: 40vh;
+}
+.pole, .poles {
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: absolute;
+  bottom: 18vh;
+  z-index: 1;
+}
+#poles_1 {
+  left: 50vw;
+}
+#poles_2 {
+  left: 0;
+}
+#poles_3 {
+  left: 22vw;
+}
+#poles_4 {
+  left: 8vw;
+}
+#pole_1 {
+  left: -15vw;
+}
+#pole_2 {
+  left: 20vw;
+}
+
+/* PICTURE FRAMES */
+.frame {
+  position: absolute;
+  border: 9px solid #1e2a4e;
+  border-radius: 5px;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.frame:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.frame:after {
+  position: absolute;
+  width: 3vw;
+  bottom: -6vh;
+  left: -1.5vh;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background: white;
+  color: black;
+  font-size: 0.5em;
+  text-align: center;
+  content: "Click frame to see more";
+}
+#frame_1 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/digital_art/swimmer.jpg");
+  height: 45vh;
+  width: 20.5vw;
+  top: 3vh;
+  left: 14vw;
+}
+#frame_2 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/character_design/family.jpg");
+  height: 40vh;
+  width: 20vw;
+  top: 4vh;
+  left: 49vw;
+}
+#frame_3 {
+  top: 11vh;
+  left: -3vw;
+  border: none;
+}
+#frame_3 iframe {
+  height: 30vh;
+  width: 45vw;
+  border: 9px solid #1e2a4e;
+}
+#frame_4 {
+  top: 10vh;
+  right: -2.5vw;
+  z-index: 1;
+  border: none;
+}
+#frame_4 iframe {
+  height: 50vh;
+  width: 32vw;
+  border: 9px solid #1e2a4e;
+}
+#frame_5 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/css_art/house.gif");
+  height: 40vh;
+  width: 20vw;
+  top: 5vh;
+  left: 38vw;
+}
+#frame_6 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/advertisement/google_mini.png");
+  height: 40vh;
+  width: 20vw;
+  top: 5vh;
+  right: 10vw;
+}
+#frame_7 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/statue.gif");
+  height: 38vh;
+  width: 20vw;
+  top: 9vh;
+  left: 14vw;
+}
+#frame_8 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/statue.gif");
+  height: 25vh;
+  width: 19vw;
+  bottom: 48vh;
+  left: 39vw;
+  border: none;
+}
+#frame_8:after {
+  content: 'Click statue to see more';
+  left: 7vw;
+  width: 3.5vw;
+  bottom: -15vh;
+}
+#frame_9 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/statue.gif");
+  height: 38vh;
+  width: 20vw;
+  top: 9vh;
+  right: 17vw;
+}
+#frame_10 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/website_screenshot.png");
+  height: 37vh;
+  width: 50vw;
+  top: 4vh;
+  left: 23vw;
+}
+
+/* PODIUM */
+.podium {
+  height: 50vh;
+  width: 20vw;
+  position: absolute;
+  bottom: -1vh;
+  left: 35vw;
+}
+
+/* LIGHTS */
+.lights {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/lights.png");
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 25vw;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.lights:before {
+  z-index: 1;
+  content: "";
+  height: 5vh;
+  width: 18vw;
+  background: #fef0c8;
+  opacity: 0.3;
+  border-radius: 70%;
+  display: block;
+  position: inherit;
+  top: 40px;
+  right: 0;
+  -webkit-box-shadow: 0 0 15px 15px #fef0c8;
+  -moz-box-shadow: 0 0 15px 15px #fef0c8;
+  box-shadow: 0 0 15px 15px #fef0c8;
+  animation: glow 1.4s linear infinite alternate;
+}
+@keyframes glow {
+  to {
+    -webkit-box-shadow: 0 0 60px 60px #fef0c8;
+    -moz-box-shadow: 0 0 60px 60px #fef0c8;
+    box-shadow: 0 0 60px 60px #fef0c8;
+  }
+}
+#lights_1 { left: 10vw; }
+#lights_2 { left: 45vw; }
+#lights_3 { left: -9vw; }
+#lights_4 { left: 20vw; }
+#lights_5 { left: 71vw; }
+#lights_6 { left: 32vw; }
+#lights_7 { right: 11vw; }
+#lights_8 { left: 10vw; }
+#lights_9 { left: 33vw; }
+#lights_10 { right: 17vw; }
+#lights_11 { left: 22vw; }
+#lights_12 { left: 45vw; }
+
+/* POST-EXHIBITION */
+#about_me, #cv, #reference_letters {
+  position: absolute;
+  top: 8vh;
+  margin: 1vh;
+  display: flex;
+}
+#about_me {
+  width: 30vw;
+  left: 30vw;
+}
+.author_logo {
+  height: 20vh;
+  margin-left: 3vh;
+}
+.wall_header {
+  font-size: 3em;
+}
+.letter_of_intent_screenshot,
+.cv_screenshot,
+.reference_letter_screenshot {
+  height: 25vh;
+  margin: 0 3vh;
+  opacity: 0.6;
+}
+.letter_of_intent_screenshot:hover,
+.cv_screenshot:hover,
+.reference_letter_screenshot:hover {
+  opacity: 1;
+}
+#cv {
+  right: 0;
+}
+#reference_letters {
+  display: flex;
+  left: 10vw;
+}
+.reference_letter {
+  text-align: center;
+}
+
+/* EXIT DOOR */
+.door {
+  width: 13vw;
+  height: 51vh;
+  position: absolute;
+  right: 3vw;
+  bottom: 35vh;
+}
+.door_sign {
+  text-transform: uppercase;
+  color: red;
+  font-size: 4em;
+  text-align: center;
+}
+.door:hover .exit_sign {
+  display: none;
+}
+.thank_you_sign {
+  color: white;
+  font-size: 0.8em;
+  display: none;
+}
+.door:hover .thank_you_sign {
+  display: unset;
+}

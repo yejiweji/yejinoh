@@ -76,10 +76,10 @@ body {
 #ticket_board {
   width: 39vw;
   color: white;
-  padding: 1vh;
+  padding: 3vh;
 }
 #ticket_board caption {
-  font-size: 2.2em;
+  font-size: 2em;
 }
 table {
   width: 100%;
@@ -93,7 +93,7 @@ th {
 }
 td a {
   color: white;  
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 /* GALLERY WALLS */
@@ -169,31 +169,33 @@ td a {
   -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   -o-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.frame:hover {
+  cursor: pointer;
+}
 .frame:after {
   position: absolute;
   width: 3vw;
-  bottom: -7vh;
+  bottom: -6vh;
   left: -1.5vh;
   padding: 3px;
-  border: 2px solid black;
-  border-radius: 3px;
+  border-radius: 2px;
   background: white;
   color: black;
   font-size: 0.5em;
   text-align: center;
-  content: "Click frame to see more";
+  content: "The Swimmer. View details.";
 }
 #frame_1 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/digital_art/swimmer.jpg");
-  height: 43vh;
-  width: 20.5vw;
+  height: 45vh;
+  width: 22vw;
   top: 3vh;
   left: 14vw;
 }
 #frame_2 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/character_design/family.jpg");
-  height: 39vh;
-  width: 20vw;
+  height: 40vh;
+  width: 22vw;
   top: 4vh;
   left: 49vw;
 }
@@ -220,29 +222,29 @@ td a {
 }
 #frame_5 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/css_art/house.gif");
-  height: 39vh;
-  width: 20vw;
+  height: 40vh;
+  width: 22vw;
   top: 5vh;
-  left: 36vw;
+  left: 38vw;
 }
 #frame_6 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/advertisement/google_mini.png");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/podium.png");
   height: 40vh;
-  width: 20vw;
+  width: 22vw;
   top: 5vh;
   right: 10vw;
 }
 #frame_7 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/statue.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/preview_recording.gif");
   height: 38vh;
-  width: 20vw;
+  width: 22vw;
   top: 9vh;
   left: 14vw;
 }
 #frame_8 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/statue.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/rendered_statue.png");
   height: 25vh;
-  width: 19vw;
+  width: 22vw;
   bottom: 48vh;
   left: 39vw;
   border: none;
@@ -254,9 +256,9 @@ td a {
   bottom: -15vh;
 }
 #frame_9 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/statue.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/preview_recording.gif");
   height: 38vh;
-  width: 20vw;
+  width: 22vw;
   top: 9vh;
   right: 17vw;
 }
@@ -317,12 +319,12 @@ td a {
 #lights_4 { left: 20vw; }
 #lights_5 { left: 71vw; }
 #lights_6 { left: 32vw; }
-#lights_7 { right: 12vw; }
+#lights_7 { right: 11vw; }
 #lights_8 { left: 10vw; }
 #lights_9 { left: 33vw; }
 #lights_10 { right: 17vw; }
 #lights_11 { left: 22vw; }
-#lights_12 { left: 46vw; }
+#lights_12 { left: 45vw; }
 
 /* POST-EXHIBITION */
 #about_me, #cv, #reference_letters {

@@ -106,7 +106,7 @@ td a {
   background-size: 100vw 100vh;
 }
 .ticket_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/ticket_booth_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/ticket-booth.png");
 }
 .plain_wall {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/plain_wall.png");
@@ -231,7 +231,7 @@ td a {
 }
 #frame_4 {
   top: 10vh;
-  right: -3vw;
+  right: -vw;
   z-index: 1;
   border: none;
   box-shadow: none;

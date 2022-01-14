@@ -36,13 +36,13 @@ body {
   position: absolute;
   left: 50%;
   padding: 3vh;
-  font-size: 5em;
+  font-size: 12vh;
   width: 35vw;
   font-family: 'Bebas Neue', cursive;
   display: flex;
 }
 .arrow_sign {
-  font-size: 2.2em;
+  font-size: 12vw;
   animation: point 10s infinite;
 }
 
@@ -66,7 +66,7 @@ body {
   width: 8vw;
   text-align: center;
   vertical-align: middle;
-  font-size: 1em;
+  font-size: 2vh;
   color: white;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ body {
   padding: 3vh;
 }
 #ticket_board caption {
-  font-size: 2em;
+  font-size: 5vh;
 }
 table {
   width: 100%;
@@ -88,12 +88,14 @@ td, th {
   text-align: left;
 }
 th {
-  font-size: 1.5em;
+  font-size: 3.7vh;
   color: orange;
 }
+td {
+  font-size: 2.9vh;
+}
 td a {
-  color: white;  
-  font-size: 1.5em;
+  color: white;
 }
 
 /* GALLERY WALLS */
@@ -135,7 +137,7 @@ td a {
   background-repeat: no-repeat;
   width: 100vw;
   position: absolute;
-  bottom: 18vh;
+  bottom: 17vh;
   z-index: 1;
 }
 #poles_1 {
@@ -164,75 +166,107 @@ td a {
   border-radius: 5px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: -10px 10px 7px -3px #616161;
+  -moz-box-shadow: -10px 10px 7px -3px #616161;
+  -webkit-box-shadow: -10px 10px 7px -3px #616161;
+  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 .frame:hover {
   cursor: pointer;
 }
 .frame:after {
+  content: "View details";
   position: absolute;
-  width: 3vw;
-  bottom: -6vh;
-  left: -1.5vh;
-  padding: 3px;
+  width: 5vw;
+  top: 2vh;
+  left: -7vw;
+  padding: 0.5vh;
   border-radius: 2px;
   background: white;
   color: black;
-  font-size: 0.5em;
+  font-size: 1.8vh;
   text-align: center;
-  content: "The Swimmer. View details.";
+  box-shadow: -5px 4px 5px -3px #616161;
+  -moz-box-shadow: -5px 4px 5px -3px #616161;
+  -webkit-box-shadow: -5px 4px 5px -3px #616161;
+  -o-box-shadow: -5px 4px 5px -3px #616161;
 }
 #frame_1 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/digital_art/swimmer.jpg");
   height: 45vh;
-  width: 22vw;
+  width: 23vw;
   top: 3vh;
   left: 14vw;
+}
+#frame_1:after {
+  content: "The Swimmer: view details";
 }
 #frame_2 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/character_design/family.jpg");
   height: 40vh;
-  width: 22vw;
+  width: 23vw;
   top: 4vh;
   left: 49vw;
+}
+#frame_2:after {
+  content: "The Family: view details";
 }
 #frame_3 {
   top: 11vh;
   left: -3vw;
   border: none;
+  box-shadow: none;
+}
+#frame_3:after {
+  content: "The Heartbreak: view details";
 }
 #frame_3 iframe {
-  height: 30vh;
+  height: 35vh;
   width: 45vw;
   border: 9px solid #1e2a4e;
+  box-shadow: -10px 10px 7px -3px #616161;
+  -moz-box-shadow: -10px 10px 7px -3px #616161;
+  -webkit-box-shadow: -10px 10px 7px -3px #616161;
+  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_4 {
   top: 10vh;
   right: -2.5vw;
   z-index: 1;
   border: none;
+  box-shadow: none;
+}
+#frame_4:after {
+  content: "The Childhood: view details";
 }
 #frame_4 iframe {
   height: 50vh;
   width: 32vw;
   border: 9px solid #1e2a4e;
+  box-shadow: -10px 10px 7px -3px #616161;
+  -moz-box-shadow: -10px 10px 7px -3px #616161;
+  -webkit-box-shadow: -10px 10px 7px -3px #616161;
+  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_5 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/css_art/house.gif");
   height: 40vh;
   width: 22vw;
   top: 5vh;
-  left: 38vw;
+  left: 35vw;
+}
+#frame_5:after {
+  content: "The House: view details";
 }
 #frame_6 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/podium.png");
   height: 40vh;
   width: 22vw;
   top: 5vh;
-  right: 10vw;
+  right: 8vw;
+}
+#frame_6:after {
+  content: "The Food Diary: view details";
 }
 #frame_7 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/preview_recording.gif");
@@ -241,19 +275,22 @@ td a {
   top: 9vh;
   left: 14vw;
 }
+#frame_7:after {
+  visibility: hidden;
+}
 #frame_8 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/rendered_statue.png");
-  height: 25vh;
-  width: 22vw;
-  bottom: 48vh;
-  left: 39vw;
+  height: 23vh;
+  width: 9.5vw;
+  bottom: 45.5vh;
+  left: 43vw;
   border: none;
+  box-shadow: none;
 }
 #frame_8:after {
-  content: 'Click statue to see more';
-  left: 7vw;
-  width: 3.5vw;
-  bottom: -15vh;
+  content: 'The Boy: view details';
+  left: 3vw;
+  top: 30vh;
 }
 #frame_9 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/preview_recording.gif");
@@ -262,12 +299,18 @@ td a {
   top: 9vh;
   right: 17vw;
 }
+#frame_9:after {
+  visibility: hidden;
+}
 #frame_10 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/website_screenshot.png");
   height: 37vh;
   width: 50vw;
   top: 4vh;
   left: 23vw;
+}
+#frame_10:after {
+  content: "The Future: view details";
 }
 
 /* PODIUM */
@@ -325,43 +368,58 @@ td a {
 #lights_10 { right: 17vw; }
 #lights_11 { left: 22vw; }
 #lights_12 { left: 45vw; }
+#lights_13 { left: 32vw; }
+#lights_14 { left: -13vw; }
+#lights_15 { left: 37vw; }
 
 /* POST-EXHIBITION */
-#about_me, #cv, #reference_letters {
+.about_me_section, .cv_section, .reference_letters_section {
   position: absolute;
-  top: 8vh;
+  top: 10vh;
   margin: 1vh;
   display: flex;
 }
-#about_me {
-  width: 30vw;
+.about_me_section {
   left: 30vw;
 }
 .author_logo {
-  height: 20vh;
+  width: 10vw;
+  margin: auto;
   margin-left: 3vh;
 }
-.wall_header {
-  font-size: 3em;
+.wall_panel {
+  max-width: 7vw;
+  font-size: 1.5vw;
+  background: white;
+  text-align: center;
+  padding: 4vh;
+  box-shadow: -10px 10px 7px -3px #616161;
+  -moz-box-shadow: -10px 10px 7px -3px #616161;
+  -webkit-box-shadow: -10px 10px 7px -3px #616161;
+  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 .letter_of_intent_screenshot,
 .cv_screenshot,
 .reference_letter_screenshot {
-  height: 25vh;
-  margin: 0 3vh;
+  width: 10vw;
+  margin-left: 3vh;
   opacity: 0.6;
+  box-shadow: -10px 10px 7px -3px #616161;
+  -moz-box-shadow: -10px 10px 7px -3px #616161;
+  -webkit-box-shadow: -10px 10px 7px -3px #616161;
+  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 .letter_of_intent_screenshot:hover,
 .cv_screenshot:hover,
 .reference_letter_screenshot:hover {
   opacity: 1;
 }
-#cv {
-  right: 0;
+.cv_section {
+  left: -10vw;
 }
-#reference_letters {
+.reference_letters_section {
   display: flex;
-  left: 10vw;
+  left: 35vw;
 }
 .reference_letter {
   text-align: center;
@@ -378,7 +436,7 @@ td a {
 .door_sign {
   text-transform: uppercase;
   color: red;
-  font-size: 4em;
+  font-size: 4vw;
   text-align: center;
 }
 .door:hover .exit_sign {
@@ -386,7 +444,7 @@ td a {
 }
 .thank_you_sign {
   color: white;
-  font-size: 0.8em;
+  font-size: 2.5vw;
   display: none;
 }
 .door:hover .thank_you_sign {

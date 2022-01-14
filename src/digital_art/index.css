@@ -68,8 +68,8 @@ body {
 
 /* SHADOWS */
 .frame, .label {
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }

@@ -106,7 +106,7 @@ td a {
   background-size: 100vw 100vh;
 }
 .ticket_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/ticket-booth.png");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/ticket_booth_wall.png");
 }
 .plain_wall {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/plain_wall.png");
@@ -202,7 +202,7 @@ td a {
   content: "The Swimmer: view details";
 }
 #frame_2 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/character_design/family.jpg");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/poster/personalized_poster.jpg");
   height: 40vh;
   width: 23vw;
   top: 4vh;
@@ -230,23 +230,14 @@ td a {
   -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_4 {
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/painting/apple_painting.png");
+  height: 50vh;
+  width: 32vw;
   top: 10vh;
-  right: -vw;
-  z-index: 1;
-  border: none;
-  box-shadow: none;
+  right: -6vw;
 }
 #frame_4:after {
   content: "The Childhood: view details";
-}
-#frame_4 iframe {
-  height: 50vh;
-  width: 32vw;
-  border: 9px solid #1e2a4e;
-  box-shadow: -10px 10px 7px -3px #616161;
-  -moz-box-shadow: -10px 10px 7px -3px #616161;
-  -webkit-box-shadow: -10px 10px 7px -3px #616161;
-  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_5 {
   background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/css_art/house.gif");
@@ -259,7 +250,7 @@ td a {
   content: "The House: view details";
 }
 #frame_6 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/podium.png");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/pencil/building_sketch.png");
   height: 40vh;
   width: 22vw;
   top: 5vh;
@@ -303,7 +294,7 @@ td a {
   visibility: hidden;
 }
 #frame_10 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/website_screenshot.png");
+  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/website_draft.png");
   height: 37vh;
   width: 50vw;
   top: 4vh;

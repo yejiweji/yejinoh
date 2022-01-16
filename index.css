@@ -209,33 +209,33 @@ td a {
   content: "The Family: view details";
 }
 #frame_3 {
-  top: 11vh;
-  left: -3vw;
+  background-image: url("https://yejiweji.github.io/yejinoh/src/painting/identity_crisis.jpg");
+  height: 29vh;
+  width: 60vw;
+  top: 10vh;
+  right: -1vw;
+}
+#frame_3:after {
+  content: "Identity Crisis: view details";
+}
+#frame_4 {
+  top: 10vh;
+  right: -1vw;
+  z-index: 1;
   border: none;
   box-shadow: none;
 }
-#frame_3:after {
-  content: "The Heartbreak: view details";
+#frame_4:after {
+  content: "To Clay: view details";
 }
-#frame_3 iframe {
-  height: 35vh;
-  width: 45vw;
+#frame_4 iframe {
+  height: 50vh;
+  width: 30vw;
   border: 9px solid #1e2a4e;
   box-shadow: -10px 10px 7px -3px #616161;
   -moz-box-shadow: -10px 10px 7px -3px #616161;
   -webkit-box-shadow: -10px 10px 7px -3px #616161;
   -o-box-shadow: -10px 10px 7px -3px #616161;
-}
-#frame_4 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/painting/apple_painting.png");
-  height: 50vh;
-  width: 30vw;
-  top: 10vh;
-  right: -1vw;
-  z-index: 1;
-}
-#frame_4:after {
-  content: "The Childhood: view details";
 }
 #frame_5 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/css_art/house.gif");

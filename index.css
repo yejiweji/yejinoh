@@ -315,7 +315,7 @@ td a {
   height: 37vh;
   width: 20vw;
   top: 4vh;
-  left: 35vw;
+  left: 45vw;
 }
 #frame_12:after {
   content: "INSERT INSERT: view details";
@@ -377,7 +377,7 @@ td a {
 #lights_11 { left: 22vw; }
 #lights_12 { left: 10vw; }
 #lights_13 { left: 25vw; }
-#lights_14 { left: 35vw; }
+#lights_14 { left: 45vw; }
 #lights_15 { left: 32vw; }
 #lights_16 { left: -13vw; }
 #lights_17 { left: 37vw; }

@@ -33,6 +33,7 @@ Take a look at https://yejiweji.github.io/yejinoh, hosted on [Github Pages](http
 * Food API
 * Procreate
 * Blender
+* FireAlpaca
 * Acrylic painting
 * Ink pen
 * Pencil

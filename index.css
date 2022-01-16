@@ -73,7 +73,7 @@ body {
 #ticket_board {
   width: 39vw;
   color: white;
-  padding: 3vh;
+  padding: 2vh;
 }
 #ticket_board caption {
   font-size: 5vh;
@@ -85,11 +85,11 @@ td, th {
   text-align: left;
 }
 th {
-  font-size: 3.7vh;
+  font-size: 3.5vh;
   color: orange;
 }
 td {
-  font-size: 2.9vh;
+  font-size: 2.5vh;
 }
 td a {
   color: white;
@@ -199,7 +199,7 @@ td a {
   content: "The Swimmer: view details";
 }
 #frame_2 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/poster/personalized_poster.jpg");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/character_design/family.jpg");
   height: 40vh;
   width: 23vw;
   top: 4vh;
@@ -231,7 +231,8 @@ td a {
   height: 50vh;
   width: 30vw;
   top: 10vh;
-  right: -6vw;
+  right: -1vw;
+  z-index: 1;
 }
 #frame_4:after {
   content: "The Childhood: view details";
@@ -305,7 +306,7 @@ td a {
   height: 37vh;
   width: 20vw;
   top: 4vh;
-  left: 25vw;
+  left: 40vw;
 }
 #frame_11:after {
   content: "INSERT TITLE: view details";
@@ -315,7 +316,7 @@ td a {
   height: 37vh;
   width: 20vw;
   top: 4vh;
-  left: 45vw;
+  left: 70vw;
 }
 #frame_12:after {
   content: "INSERT INSERT: view details";
@@ -374,13 +375,12 @@ td a {
 #lights_8 { left: 11vw; }
 #lights_9 { left: 34vw; }
 #lights_10 { right: 16vw; }
-#lights_11 { left: 22vw; }
-#lights_12 { left: 10vw; }
-#lights_13 { left: 25vw; }
-#lights_14 { left: 45vw; }
-#lights_15 { left: 32vw; }
-#lights_16 { left: -13vw; }
-#lights_17 { left: 37vw; }
+#lights_11 { left: 10vw; }
+#lights_12 { left: 40vw; }
+#lights_13 { left: 70vw; }
+#lights_14 { left: 32vw; }
+#lights_15 { left: -13vw; }
+#lights_16 { left: 37vw; }
 
 /* POST-EXHIBITION */
 .about_me_section, .cv_section, .reference_letters_section {

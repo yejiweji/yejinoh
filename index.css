@@ -106,31 +106,31 @@ td a {
   background-size: 100vw 100vh;
 }
 .ticket_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/ticket_booth_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/ticket_booth_wall.png");
 }
 .plain_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/plain_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/plain_wall.png");
 }
 .right_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/right_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/right_wall.png");
 }
 .left_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/left_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/left_wall.png");
 }
 .mid_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/mid_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/mid_wall.png");
 }
 .door_wall {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/door_wall.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/door_wall.png");
 }
 
 /* SECURITY POLES */
 .pole {
-    background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/single_pole.png");
+    background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/single_pole.png");
   height: 50vh;
 }
 .poles {
-    background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/poles.png");
+    background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/poles.png");
   height: 40vh;
 }
 .pole, .poles {
@@ -192,7 +192,7 @@ td a {
   -o-box-shadow: -5px 4px 5px -3px #616161;
 }
 #frame_1 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/digital_art/swimmer.jpg");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/digital_art/swimmer.jpg");
   height: 45vh;
   width: 23vw;
   top: 3vh;
@@ -202,7 +202,7 @@ td a {
   content: "The Swimmer: view details";
 }
 #frame_2 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/poster/personalized_poster.jpg");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/poster/personalized_poster.jpg");
   height: 40vh;
   width: 23vw;
   top: 4vh;
@@ -230,7 +230,7 @@ td a {
   -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_4 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/painting/apple_painting.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/painting/apple_painting.png");
   height: 50vh;
   width: 32vw;
   top: 10vh;
@@ -240,7 +240,7 @@ td a {
   content: "The Childhood: view details";
 }
 #frame_5 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/css_art/house.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/css_art/house.gif");
   height: 40vh;
   width: 22vw;
   top: 5vh;
@@ -250,7 +250,7 @@ td a {
   content: "The House: view details";
 }
 #frame_6 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/pencil/building_sketch.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/pencil/building_sketch.png");
   height: 40vh;
   width: 22vw;
   top: 5vh;
@@ -260,7 +260,7 @@ td a {
   content: "The Food Diary: view details";
 }
 #frame_7 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/preview_recording.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/preview_recording.gif");
   height: 38vh;
   width: 22vw;
   top: 9vh;
@@ -270,7 +270,7 @@ td a {
   visibility: hidden;
 }
 #frame_8 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/rendered_statue.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/rendered_statue.png");
   height: 23vh;
   width: 9.5vw;
   bottom: 45.5vh;
@@ -284,7 +284,7 @@ td a {
   top: 30vh;
 }
 #frame_9 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/3d_modelling/preview_recording.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/preview_recording.gif");
   height: 38vh;
   width: 22vw;
   top: 9vh;
@@ -294,7 +294,7 @@ td a {
   visibility: hidden;
 }
 #frame_10 {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/website_draft.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_draft.png");
   height: 37vh;
   width: 50vw;
   top: 4vh;
@@ -315,7 +315,7 @@ td a {
 
 /* LIGHTS */
 .lights {
-  background-image: url("https://yejiweji.github.io/yejinoh.github.io/src/portfolio_website/lights.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/lights.png");
   background-repeat: no-repeat;
   height: 10vh;
   width: 25vw;

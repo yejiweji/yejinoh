@@ -134,23 +134,23 @@ td a {
   background-repeat: no-repeat;
   width: 100vw;
   position: absolute;
-  bottom: 17vh;
+  bottom: 15vh;
   z-index: 1;
 }
 #poles_1 {
   left: 50vw;
 }
 #poles_2 {
-  left: 0;
+  left: 17vw;
 }
 #poles_3 {
-  left: 22vw;
+  left: 32vw;
 }
 #poles_4 {
-  left: 8vw;
+  left: 18vw;
 }
 #pole_1 {
-  left: -15vw;
+  left: -6vw;
 }
 #pole_2 {
   left: 20vw;
@@ -211,7 +211,7 @@ td a {
 #frame_3 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/painting/identity_crisis.jpg");
   height: 29vh;
-  width: 57vw;
+  width: 55vw;
   top: 10vh;
   left: -8vw;
 }
@@ -241,7 +241,7 @@ td a {
   background-image: url("https://yejiweji.github.io/yejinoh/src/css_art/house.gif");
   height: 40vh;
   width: 22vw;
-  top: 5vh;
+  top: 7vh;
   left: 35vw;
 }
 #frame_5:after {
@@ -251,7 +251,7 @@ td a {
   background-image: url("https://yejiweji.github.io/yejinoh/src/pencil/building_sketch.png");
   height: 40vh;
   width: 22vw;
-  top: 5vh;
+  top: 7vh;
   right: 8vw;
 }
 #frame_6:after {
@@ -272,7 +272,7 @@ td a {
   height: 23vh;
   width: 9.5vw;
   bottom: 45.5vh;
-  left: 43vw;
+  left: 45vw;
   border: none;
   box-shadow: none;
 }
@@ -296,7 +296,7 @@ td a {
   height: 37vh;
   width: 20vw;
   top: 4vh;
-  left: 10vw;
+  left: 8vw;
 }
 #frame_10:after {
   content: "The Future: view details";
@@ -306,7 +306,7 @@ td a {
   height: 37vh;
   width: 20vw;
   top: 4vh;
-  left: 40vw;
+  left: 39vw;
 }
 #frame_11:after {
   content: "INSERT TITLE: view details";
@@ -328,7 +328,7 @@ td a {
   width: 20vw;
   position: absolute;
   bottom: -1vh;
-  left: 35vw;
+  left: 37vw;
 }
 
 /* LIGHTS */
@@ -365,22 +365,22 @@ td a {
     box-shadow: 0 0 60px 60px #fef0c8;
   }
 }
-#lights_1 { left: 10vw; }
-#lights_2 { left: 45vw; }
-#lights_3 { left: -9vw; }
-#lights_4 { left: 20vw; }
-#lights_5 { left: 71vw; }
-#lights_6 { left: 32vw; }
-#lights_7 { right: 9vw; }
-#lights_8 { left: 11vw; }
-#lights_9 { left: 34vw; }
-#lights_10 { right: 16vw; }
-#lights_11 { left: 10vw; }
-#lights_12 { left: 40vw; }
+#lights_1 { left: calc(14vw + 1vw); }
+#lights_2 { left: calc(49vw + 1vw); }
+#lights_3 { left: calc(-8vw + 4vw); }
+#lights_4 { left: 22vw; }
+#lights_5 { right: calc(-1vw + 1vw); }
+#lights_6 { left: calc(35vw + 1vw); }
+#lights_7 { right: calc(8vw - 2.5vw); }
+#lights_8 { left: calc(14vw + 1vw); }
+#lights_9 { left: calc(45vw - 7vw); }
+#lights_10 { right: calc(15vw - 3vw); }
+#lights_11 { left: 8vw; }
+#lights_12 { left: 39vw; }
 #lights_13 { left: 70vw; }
-#lights_14 { left: 32vw; }
-#lights_15 { left: -13vw; }
-#lights_16 { left: 37vw; }
+#lights_14 { left: 35vw; }
+#lights_15 { left: -10vw; }
+#lights_16 { left: 41vw; }
 
 /* POST-EXHIBITION */
 .about_me_section, .cv_section, .reference_letters_section {

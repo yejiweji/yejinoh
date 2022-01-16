@@ -254,7 +254,7 @@ td a {
   right: 8vw;
 }
 #frame_6:after {
-  content: "The Food Diary: view details";
+  content: "The House Sketched: view details";
 }
 #frame_7 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/preview_recording.gif");
@@ -293,12 +293,32 @@ td a {
 #frame_10 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_draft.png");
   height: 37vh;
-  width: 50vw;
+  width: 20vw;
   top: 4vh;
-  left: 23vw;
+  left: 10vw;
 }
 #frame_10:after {
   content: "The Future: view details";
+}
+#frame_11 {
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/podium.png");
+  height: 37vh;
+  width: 20vw;
+  top: 4vh;
+  left: 25vw;
+}
+#frame_11:after {
+  content: "INSERT TITLE: view details";
+}
+#frame_12 {
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/podium.png");
+  height: 37vh;
+  width: 20vw;
+  top: 4vh;
+  left: 35vw;
+}
+#frame_12:after {
+  content: "INSERT INSERT: view details";
 }
 
 /* PODIUM */
@@ -355,10 +375,12 @@ td a {
 #lights_9 { left: 34vw; }
 #lights_10 { right: 16vw; }
 #lights_11 { left: 22vw; }
-#lights_12 { left: 45vw; }
-#lights_13 { left: 32vw; }
-#lights_14 { left: -13vw; }
-#lights_15 { left: 37vw; }
+#lights_12 { left: 10vw; }
+#lights_13 { left: 25vw; }
+#lights_14 { left: 35vw; }
+#lights_15 { left: 32vw; }
+#lights_16 { left: -13vw; }
+#lights_17 { left: 37vw; }
 
 /* POST-EXHIBITION */
 .about_me_section, .cv_section, .reference_letters_section {

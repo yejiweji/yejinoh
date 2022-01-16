@@ -211,9 +211,9 @@ td a {
 #frame_3 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/painting/identity_crisis.jpg");
   height: 29vh;
-  width: 60vw;
+  width: 57vw;
   top: 10vh;
-  right: -1vw;
+  left: -8vw;
 }
 #frame_3:after {
   content: "Identity Crisis: view details";

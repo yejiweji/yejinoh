@@ -333,16 +333,16 @@ td a {
 
 /* LIGHTS */
 .lights {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/lights.png");
-  background-repeat: no-repeat;
   height: 10vh;
   width: 25vw;
   position: absolute;
   top: 0;
   z-index: 2;
 }
+.lights img {
+  width: 100%;
+}
 .lights:before {
-  z-index: 1;
   content: "";
   height: 5vh;
   width: 18vw;
@@ -365,21 +365,21 @@ td a {
     box-shadow: 0 0 60px 60px #fef0c8;
   }
 }
-#lights_1 { left: calc(14vw + 1vw); }
-#lights_2 { left: calc(49vw + 1vw); }
-#lights_3 { left: calc(-8vw + 4vw); }
+#lights_1 { left: calc(14vw + 0vw); }
+#lights_2 { left: calc(49vw + 0vw); }
+#lights_3 { left: -4vw; }
 #lights_4 { left: 22vw; }
-#lights_5 { right: calc(-1vw + 1vw); }
-#lights_6 { left: calc(35vw + 1vw); }
-#lights_7 { right: calc(8vw - 2.5vw); }
-#lights_8 { left: calc(14vw + 1vw); }
-#lights_9 { left: calc(45vw - 7vw); }
-#lights_10 { right: calc(15vw - 3vw); }
-#lights_11 { left: 8vw; }
-#lights_12 { left: 39vw; }
-#lights_13 { left: 70vw; }
+#lights_5 { right: calc(2vw); }
+#lights_6 { left: calc(35vw + 0vw); }
+#lights_7 { right: calc(8vw - 1vw); }
+#lights_8 { left: calc(14vw + 0vw); }
+#lights_9 { left: calc(45vw - 7.5vw); }
+#lights_10 { right: calc(15vw - 1vw); }
+#lights_11 { left: 6vw; }
+#lights_12 { left: 38vw; }
+#lights_13 { left: 68vw; }
 #lights_14 { left: 35vw; }
-#lights_15 { left: -10vw; }
+#lights_15 { left: -11.5vw; }
 #lights_16 { left: 41vw; }
 
 /* POST-EXHIBITION */

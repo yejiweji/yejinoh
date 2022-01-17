@@ -31,7 +31,7 @@
             <div class="main_image">
               <img class="frame" src="https://yejiweji.github.io/yejinoh/src/character_design/family.jpg" alt="portfolio-piece" />
             </div>
-            <ul class="thumbnail_image">
+            <ul class="thumbnail_images">
               <li>
                 <a href="https://yejiweji.github.io/yejinoh/src/character_design/family.jpg">
                   <img src="https://yejiweji.github.io/yejinoh/src/character_design/family.jpg" alt="behind-the-scenes-1" />
@@ -50,7 +50,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $(".thumbnail_image a").on("click", function(e) {
+        $(".thumbnail_images a").on("click", function(e) {
           e.preventDefault();
           $(".main_image img").attr("src", $(this).attr("href"));
         });

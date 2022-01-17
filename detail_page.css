@@ -61,14 +61,10 @@ body {
   margin-left: 25px;
 }
 
-.main_image {
-  margin-bottom: 10px;
-}
-
 .frame {
   border: 10px solid #1e2a4e;
   border-radius: 5px;
-  width: 37vw;
+  max-width: 45vw;
   max-height: 65vh;
 }
 
@@ -81,20 +77,20 @@ iframe {
   height: 65vw;
 }
 
-.thumbnail_image {
+.thumbnail_images {
   display: flex;
   flex-flow: row;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
-.thumbnail_image li {
+.thumbnail_images li {
   margin-right: 20px;
   list-style: none;
 }
 
-.thumbnail_image img {
+.thumbnail_images img {
   width: 10vh;
   height: 10vh;
 }

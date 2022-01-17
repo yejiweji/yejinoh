@@ -40,6 +40,7 @@ body {
   background: white;
   color: black;
   font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
 .title {
@@ -64,14 +65,20 @@ body {
   margin-bottom: 10px;
 }
 
-.main_image iframe, .frame {
+.frame {
   border: 10px solid #1e2a4e;
   border-radius: 5px;
-  width: 35vw;
+  width: 37vw;
+  max-height: 65vh;
 }
 
 .frame embed {
   width: 55vw;
+  height: 65vw;
+}
+
+iframe {
+  height: 65vw;
 }
 
 .thumbnail_image {

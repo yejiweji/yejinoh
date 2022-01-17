@@ -8,15 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://yejiweji.github.io/yejinoh/detail_page.css" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $(".thumbnail_image a").on("click", function(e){
-          e.preventDefault();
-          $(".main_image img").attr("src", $(this).attr("href"));
-        });
-      });
-    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -61,5 +52,14 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".thumbnail_image a").on("click", function(e){
+          e.preventDefault();
+          $(".main_image img").attr("src", $(this).attr("href"));
+        });
+      });
+    </script>
   </body>
 </html>

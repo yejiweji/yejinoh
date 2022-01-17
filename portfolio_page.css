@@ -27,11 +27,10 @@ body {
 /* BACK BUTTON */
 .back_button {
   position: absolute;
-  color: black;
+  color: #c19b7a;
   font-size: 1.5em;
   text-decoration: none;
   margin: 10px 20px;
-  display: none;
 }
 
 /* LIGHTS */

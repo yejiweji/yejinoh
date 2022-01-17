@@ -4,7 +4,7 @@ body {
 }
 
 /* DAY */
-.wrapper {
+.house_outer_wrapper {
   width: 735px;
   background: #aed0e6;
   overflow: hidden;
@@ -19,43 +19,43 @@ body {
 }
 
 /*  NIGHT */
-.wrapper:hover {
+.house_outer_wrapper:hover {
   background-color: #11232e;
   background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 3px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 4px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
 }
 
-.wrapper:hover .cloud {
+.house_outer_wrapper:hover .cloud {
   visibility: hidden;
 }
 
-.wrapper:hover .building,
-.wrapper:hover .building_left,
-.wrapper:hover .left_strip,
-.wrapper:hover .right_strip,
-.wrapper:hover .main_roof,
-.wrapper:hover .chimmney,
-.wrapper:hover .left_point_roof,
-.wrapper:hover .left_point,
-.wrapper:hover .roof_left,
-.wrapper:hover .roof_right,
-.wrapper:hover .planter,
-.wrapper:hover .window_shadetop,
-.wrapper:hover .floor,
-.wrapper:hover .floor_strip,
-.wrapper:hover .door_base {
+.house_outer_wrapper:hover .building,
+.house_outer_wrapper:hover .building_left,
+.house_outer_wrapper:hover .left_strip,
+.house_outer_wrapper:hover .right_strip,
+.house_outer_wrapper:hover .main_roof,
+.house_outer_wrapper:hover .chimmney,
+.house_outer_wrapper:hover .left_point_roof,
+.house_outer_wrapper:hover .left_point,
+.house_outer_wrapper:hover .roof_left,
+.house_outer_wrapper:hover .roof_right,
+.house_outer_wrapper:hover .planter,
+.house_outer_wrapper:hover .window_shadetop,
+.house_outer_wrapper:hover .floor,
+.house_outer_wrapper:hover .floor_strip,
+.house_outer_wrapper:hover .door_base {
   filter: brightness(35%);
 }
 
-.wrapper:hover .window_base,
-.wrapper:hover .door_peep {
+.house_outer_wrapper:hover .window_base,
+.house_outer_wrapper:hover .door_peep {
   background: yellow;
   -webkit-box-shadow: 0 0 30px #FFEA00;
   -moz-box-shadow: 0 0 30px #FFEA00;
   box-shadow: 0 0 30px #FFEA00;
 }
 
-.wrapper:hover .artist_sign {
+.house_outer_wrapper:hover .artist_sign {
   color: white;
 }
 

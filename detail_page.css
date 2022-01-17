@@ -64,17 +64,13 @@ body {
 .frame {
   border: 10px solid #1e2a4e;
   border-radius: 5px;
-  max-width: 45vw;
   max-height: 65vh;
+  max-width: 45vw;
 }
 
-.frame embed {
-  width: 55vw;
-  height: 65vw;
-}
-
-iframe {
-  height: 65vw;
+iframe, .frame embed {
+  height: 65vh;
+  width: 45vw;
 }
 
 .thumbnail_images {

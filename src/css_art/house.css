@@ -10,14 +10,6 @@ body {
   overflow: hidden;
 }
 
-.artist_sign {
-  font-family: 'Comforter Brush', cursive;
-  font-size: 30px;
-  position: absolute;
-  right: 40px;
-  bottom: 40px;
-}
-
 /*  NIGHT */
 .house_outer_wrapper:hover {
   background-color: #11232e;
@@ -53,10 +45,6 @@ body {
   -webkit-box-shadow: 0 0 30px #FFEA00;
   -moz-box-shadow: 0 0 30px #FFEA00;
   box-shadow: 0 0 30px #FFEA00;
-}
-
-.house_outer_wrapper:hover .artist_sign {
-  color: white;
 }
 
 /* CLOUDS */

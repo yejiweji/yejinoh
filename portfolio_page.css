@@ -27,7 +27,7 @@ body {
 /* BACK BUTTON */
 .back_button {
   position: absolute;
-  color: #1e2a4e;
+  color: black;
   font-size: 1.5em;
   text-decoration: none;
   margin: 10px 20px;

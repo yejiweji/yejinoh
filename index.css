@@ -141,16 +141,16 @@ td a {
   left: 50vw;
 }
 #poles_2 {
-  left: 17vw;
+  left: 4vw;
 }
 #poles_3 {
   left: 32vw;
 }
 #poles_4 {
-  left: 18vw;
+  left: 5vw;
 }
 #pole_1 {
-  left: -6vw;
+  left: -10vw;
 }
 #pole_2 {
   left: 20vw;
@@ -220,7 +220,7 @@ td a {
 }
 #frame_4 {
   top: 10vh;
-  right: -1vw;
+  right: -2vw;
   z-index: 1;
   border: none;
   box-shadow: none;

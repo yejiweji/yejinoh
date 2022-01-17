@@ -415,12 +415,13 @@ td a {
 }
 .panel_description {
   font-size: 1vw;
+  padding-top: 10px;
 }
 .letter_of_intent_screenshot,
 .cv_screenshot,
 .reference_letter_screenshot {
   width: 10vw;
-  margin-left: 3vh;
+  margin-left: 2vw;
   opacity: 0.6;
   box-shadow: -10px 10px 7px -3px #616161;
   -moz-box-shadow: -10px 10px 7px -3px #616161;
@@ -441,6 +442,9 @@ td a {
 }
 .reference_letter {
   text-align: center;
+}
+.reference_letter_header {
+  margin-left: 2vw;
 }
 
 /* EXIT DOOR */

@@ -145,10 +145,10 @@ td a {
 }
 #poles_3 {
   left: 32vw;
+  display: none;
 }
 #poles_4 {
   left: 5vw;
-  display: none;
 }
 #pole_1 {
   left: -10vw;

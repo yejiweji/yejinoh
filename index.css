@@ -403,11 +403,18 @@ td a {
   font-size: 1.5vw;
   background: white;
   text-align: center;
-  padding: 4vh;
+  padding: 3vh;
   box-shadow: -10px 10px 7px -3px #616161;
   -moz-box-shadow: -10px 10px 7px -3px #616161;
   -webkit-box-shadow: -10px 10px 7px -3px #616161;
   -o-box-shadow: -10px 10px 7px -3px #616161;
+}
+.panel_title {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.panel_description {
+  font-size: 1vw;
 }
 .letter_of_intent_screenshot,
 .cv_screenshot,

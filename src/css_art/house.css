@@ -12,10 +12,10 @@ body {
 
 .artist_sign {
   font-family: 'Comforter Brush', cursive;
-  font-size: 35px;
+  font-size: 30px;
   position: absolute;
-  left: 600px;
-  top: 600px;
+  right: 40px;
+  bottom: 40px;
 }
 
 /*  NIGHT */

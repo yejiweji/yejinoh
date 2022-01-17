@@ -295,7 +295,7 @@ td a {
 #frame_10 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_poster.png");
   height: 37vh;
-  width: 20vw;
+  width: 17vw;
   top: 4vh;
   left: 8vw;
 }
@@ -305,7 +305,7 @@ td a {
 #frame_11 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/react_app/food_planet.gif");
   height: 37vh;
-  width: 20vw;
+  width: 17vw;
   top: 4vh;
   left: 39vw;
 }
@@ -315,7 +315,7 @@ td a {
 #frame_12 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/podium.png");
   height: 37vh;
-  width: 20vw;
+  width: 17vw;
   top: 4vh;
   left: 70vw;
 }
@@ -376,9 +376,9 @@ td a {
 #lights_8 { left: calc(14vw + 0vw); }
 #lights_9 { left: calc(45vw - 7.5vw); }
 #lights_10 { right: calc(15vw - 1vw); }
-#lights_11 { left: 6vw; }
-#lights_12 { left: 38vw; }
-#lights_13 { left: 68vw; }
+#lights_11 { left: 5vw; }
+#lights_12 { left: 36vw; }
+#lights_13 { left: 67vw; }
 #lights_14 { left: 35vw; }
 #lights_15 { left: -11.5vw; }
 #lights_16 { left: 41vw; }

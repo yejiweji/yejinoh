@@ -64,10 +64,14 @@ body {
   margin-bottom: 10px;
 }
 
-.frame {
+.main_image iframe, .frame {
   border: 10px solid #1e2a4e;
   border-radius: 5px;
-  height: 70vh;
+  width: 35vw;
+}
+
+.frame embed {
+  width: 55vw;
 }
 
 .thumbnail_image {

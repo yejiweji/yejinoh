@@ -71,28 +71,30 @@ body {
 
 /* TICKETING BOARD */
 #ticket_board {
-  width: 39vw;
+  width: 40vw;
   color: white;
-  padding: 2vh;
+  padding: 1vw;
 }
-#ticket_board caption {
-  font-size: 5vh;
+.board_section {
+  float: left;
+  padding: 0 1vw;
+  font-size: 1.5vw;
 }
-table {
-  width: 100%;
-}
-td, th {
-  text-align: left;
-}
-th {
-  font-size: 3.5vh;
-  color: orange;
-}
-td {
-  font-size: 2.5vh;
-}
-td a {
+.board_section a {
   color: white;
+}
+.board_section a:hover {
+  color: #ffc93b;
+}
+.board_header {
+  font-size: 2.5vw;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+.board_subheader {
+  color: #ffa500;
+  min-height: 4vh;
+  font-size: 1.5vw;
 }
 
 /* GALLERY WALLS */

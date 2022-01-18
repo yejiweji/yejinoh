@@ -139,10 +139,10 @@ body {
   z-index: 1;
 }
 #poles_1 {
-  left: 45.5vw;
+  left: 58vw;
 }
 #poles_2 {
-  left: 3.5vw;
+  right: -58vw;
 }
 #poles_3 {
   left: 32vw;
@@ -153,9 +153,11 @@ body {
 }
 #pole_1 {
   left: -10vw;
+  display: none;
 }
 #pole_2 {
   left: 20vw;
+  display: none;
 }
 
 /* PICTURE FRAMES */

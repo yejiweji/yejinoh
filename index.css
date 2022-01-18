@@ -307,9 +307,9 @@ body {
 #frame_11 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/react_app/food_planet.gif");
   height: 37vh;
-  width: 17vw;
+  width: 20vw;
   top: 4vh;
-  left: 39vw;
+  left: 38vw;
 }
 #frame_11:after {
   content: "The Food Planet: view details";

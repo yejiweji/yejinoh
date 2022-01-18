@@ -125,14 +125,13 @@ body {
 
 /* SECURITY POLES */
 .pole {
-    background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/single_pole.png");
-  height: 50vh;
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/single_pole.png");
 }
 .poles {
-    background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/poles.png");
-  height: 40vh;
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/poles.png");
 }
 .pole, .poles {
+  height: 40vh;
   background-repeat: no-repeat;
   width: 100vw;
   position: absolute;
@@ -140,10 +139,10 @@ body {
   z-index: 1;
 }
 #poles_1 {
-  left: 50vw;
+  left: 45.5vw;
 }
 #poles_2 {
-  left: 4vw;
+  left: 3.5vw;
 }
 #poles_3 {
   left: 32vw;

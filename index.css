@@ -209,7 +209,7 @@ body {
   height: 40vh;
   width: 23vw;
   top: 4vh;
-  left: 49vw;
+  left: 53vw;
 }
 #frame_2:after {
   content: "The Family: view details";
@@ -372,7 +372,7 @@ body {
   }
 }
 #lights_1 { left: calc(14vw + 0vw); }
-#lights_2 { left: calc(49vw + 0vw); }
+#lights_2 { left: calc(53vw + 0vw); }
 #lights_3 { left: -4vw; }
 #lights_4 { left: 22vw; }
 #lights_5 { right: calc(2vw); }

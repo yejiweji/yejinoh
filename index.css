@@ -251,7 +251,7 @@ td a {
 #frame_6 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/pencil/building_sketch.png");
   height: 40vh;
-  width: 22vw;
+  width: 20vw;
   top: 7vh;
   right: 8vw;
 }
@@ -372,7 +372,7 @@ td a {
 #lights_4 { left: 22vw; }
 #lights_5 { right: calc(2vw); }
 #lights_6 { left: calc(35vw + 0vw); }
-#lights_7 { right: calc(8vw - 1vw); }
+#lights_7 { right: calc(8vw - 2vw); }
 #lights_8 { left: calc(14vw + 0vw); }
 #lights_9 { left: calc(45vw - 7.5vw); }
 #lights_10 { right: calc(15vw - 1vw); }

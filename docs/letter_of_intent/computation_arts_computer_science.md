@@ -1,1 +1,0 @@
-# Placeholder letter of intent

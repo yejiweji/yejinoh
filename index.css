@@ -126,12 +126,13 @@ body {
 /* SECURITY POLES */
 .pole {
   background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/single_pole.png");
+  height: 55vh;
 }
 .poles {
   background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/poles.png");
+  height: 40vh;
 }
 .pole, .poles {
-  height: 40vh;
   background-repeat: no-repeat;
   width: 100vw;
   position: absolute;
@@ -152,12 +153,13 @@ body {
   left: 5vw;
 }
 #pole_1 {
-  left: -10vw;
-  display: none;
+  left: 30vw;
 }
 #pole_2 {
-  left: 20vw;
-  display: none;
+  left: -10vw;
+}
+#pole_3 {
+  right: 30vw;
 }
 
 /* PICTURE FRAMES */
@@ -387,13 +389,13 @@ body {
 #lights_16 { left: 41vw; }
 
 /* POST-EXHIBITION */
-.about_me_section, .cv_section, .reference_letters_section {
+.letter_of_intent_section, .cv_section, .reference_letters_section {
   position: absolute;
   top: 10vh;
   margin: 1vh;
   display: flex;
 }
-.about_me_section {
+.letter_of_intent_section {
   left: 30vw;
 }
 .author_logo {

@@ -422,7 +422,7 @@ body {
 .letter_of_intent_screenshot,
 .cv_screenshot,
 .reference_letter_screenshot {
-  width: 10vw;
+  height: 25vh;
   margin-left: 2vw;
   opacity: 0.6;
   box-shadow: -10px 10px 7px -3px #616161;
@@ -440,7 +440,7 @@ body {
 }
 .reference_letters_section {
   display: flex;
-  left: 35vw;
+  right: 30vw;
 }
 .reference_letter {
   text-align: center;

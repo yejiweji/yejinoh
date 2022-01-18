@@ -26,6 +26,7 @@ Take a look at https://yejiweji.github.io/yejinoh, hosted on [Github Pages](http
 * HTML
 * CSS
 * SCSS (Sass)
+* JQuery
 * ReactJS
 * React Bootstrap
 * Google Maps API

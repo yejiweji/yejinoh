@@ -127,15 +127,9 @@ body {
 }
 
 /* SECURITY POLES */
-.poles {
+.pole, .poles {
   height: 30vh;
   bottom: 26vh;
-}
-.pole {
-  height: 70vh;
-  bottom: 8vh;
-}
-.pole, .poles {
   background-repeat: no-repeat;
   position: absolute;
   z-index: 1;

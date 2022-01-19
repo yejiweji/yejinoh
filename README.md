@@ -6,7 +6,9 @@ This repo contains my art, programming and design portfolio pieces as a grade 12
 
 ## 💫 Portfolio website
 
-Take a look at https://yejiweji.github.io/yejinoh, hosted on [Github Pages](https://docs.github.com/en/enterprise-server@3.1/pages/getting-started-with-github-pages/about-github-pages).
+* Take a look at https://yejiweji.github.io/yejinoh, hosted on [Github Pages](https://docs.github.com/en/enterprise-server@3.1/pages/getting-started-with-github-pages/about-github-pages).
+
+* Check out my art at https://www.instagram.com/yejiweji/
 
 ## 💫 Pieces
 

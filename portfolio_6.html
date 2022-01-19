@@ -17,7 +17,7 @@
         <div class="label_images_wrapper">
           <div class="label">
             <div class="title">
-              The Building
+              Watermelon Pot
             </div>
             <div class="medium">
               <span class="subtitle">Medium: </span>
@@ -25,16 +25,52 @@
             </div>
             <div class="process_intention">
               <span class="subtitle">Process and intention: </span>
-              <span>TODO add any templates/rough sketches. Comment on how and why you made the work as well as what the desired experience of a user/reader/view/etc. is</span>
+              <span>Comment on how and why you made the work as well as what the desired experience of a user/reader/view/etc. is</span>
             </div>
           </div>
           <div class="images_wrapper">
             <div class="main_image">
-              <img class="frame" src="https://yejiweji.github.io/yejinoh/src/pencil/building_sketch.png" alt="portfolio-piece" />
+              <img class="frame" src="https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png" alt="portfolio-piece" />
             </div>
+            <ul class="thumbnail_images">
+              <li>
+                <a href="https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png">
+                  <img src="https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png" alt="behind-the-scenes-1" />
+                </a>
+              </li>
+              <li>
+                <a href="https://yejiweji.github.io/yejinoh/src/pottery/pot_left.png">
+                  <img src="https://yejiweji.github.io/yejinoh/src/pottery/pot_left.png" alt="behind-the-scenes-2">
+                </a>
+              </li>
+              <li>
+                <a href="https://yejiweji.github.io/yejinoh/src/pottery/pot_back.png">
+                  <img src="https://yejiweji.github.io/yejinoh/src/pottery/pot_back.png" alt="behind-the-scenes-3">
+                </a>
+              </li>
+              <li>
+                <a href="https://yejiweji.github.io/yejinoh/src/pottery/pot_right.png">
+                  <img src="https://yejiweji.github.io/yejinoh/src/pottery/pot_right.png" alt="behind-the-scenes-4">
+                </a>
+              </li>
+              <li>
+                <a href="https://yejiweji.github.io/yejinoh/src/pottery/pot_design_sketch.png">
+                  <img src="https://yejiweji.github.io/yejinoh/src/pottery/pot_design_sketch.png" alt="behind-the-scenes-5">
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".thumbnail_images a").on("click", function(e) {
+          e.preventDefault();
+          $(".main_image img").attr("src", $(this).attr("href"));
+        });
+      });
+    </script>
   </body>
 </html>

@@ -214,10 +214,10 @@ body {
 }
 #frame_3 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/painting/not_myself_painting.png");
-  height: 29vh;
-  width: 55vw;
+  height: 30vh;
+  width: 50vw;
   top: 10vh;
-  left: -8vw;
+  left: -4vw;
 }
 #frame_3:after {
   content: "Identity Crisis: view details";
@@ -252,14 +252,14 @@ body {
   content: "The House: view details";
 }
 #frame_6 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/pencil/building_sketch.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png");
   height: 40vh;
   width: 19vw;
   top: 7vh;
   right: 8vw;
 }
 #frame_6:after {
-  content: "The Building: view details";
+  content: "Watermelon Pot: view details";
 }
 #frame_7 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/preview_recording.gif");

@@ -57,16 +57,20 @@ body {
 /* RECEPTION */
 .receptionist {
   position: absolute;
-  bottom: 34vh;
-  left: 22vw;
-  height: 14vh;
-  width: 8vw;
+  bottom: 37.3vh;
+  left: 21.5vw;
+  height: 12vh;
+  width: 10vw;
   text-align: center;
   vertical-align: middle;
-  font-size: 2vh;
+  font-size: 1.3vw;
   color: white;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+.receptionist span {
+  word-break: normal;
+  padding: 5px;
 }
 
 /* TICKETING BOARD */
@@ -124,43 +128,43 @@ body {
 }
 
 /* SECURITY POLES */
-.pole {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/single_pole.png");
-  height: 60vh;
-  width: 410px;
-}
 .poles {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/poles.png");
-  height: 40vh;
-  width: 100vw;
+  height: 30vh;
+  bottom: 26vh;
+}
+.pole {
+  height: 70vh;
+  bottom: 8vh;
 }
 .pole, .poles {
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 15vh;
   z-index: 1;
 }
 #poles_1 {
+  width: 80vw;
   left: 58vw;
 }
 #poles_2 {
-  right: -58vw;
+  width: 90vw;
+  right: -40vw;
 }
 #poles_3 {
-  left: 32vw;
-  display: none;
+  width: 75vw;
+  left: 26vw;
 }
 #poles_4 {
-  left: 5vw;
+  width: 94vw;
+  left: 0;
 }
 #pole_1 {
-  left: calc(30vw - 35px);
+  left: calc(30vw - 30px);
 }
 #pole_2 {
-  left: calc(-14vw - 35px);
+  left: calc(-15vw - 30px);
 }
 #pole_3 {
-  right: calc(29vw + 35px);
+  right: calc(26vw + 30px);
 }
 
 /* PICTURE FRAMES */
@@ -188,7 +192,7 @@ body {
   border-radius: 2px;
   background: white;
   color: black;
-  font-size: 1.8vh;
+  font-size: 1vw;
   text-align: center;
   box-shadow: -5px 4px 5px -3px #616161;
   -moz-box-shadow: -5px 4px 5px -3px #616161;

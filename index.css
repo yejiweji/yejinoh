@@ -154,13 +154,13 @@ body {
   left: 5vw;
 }
 #pole_1 {
-  left: calc(30vw - 10px);
+  left: calc(30vw - 35px);
 }
 #pole_2 {
-  left: calc(-10vw + 10px);
+  left: calc(-14vw - 35px);
 }
 #pole_3 {
-  right: calc(30vw - 10px);
+  right: calc(29vw + 35px);
 }
 
 /* PICTURE FRAMES */

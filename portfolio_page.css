@@ -10,6 +10,7 @@ body {
   background: #fceddb;
   width: 100vw;
   height: 100vh;
+  overflow: scroll;
 }
 
 .label_images_wrapper {
@@ -74,7 +75,7 @@ body {
   border: 10px solid #1e2a4e;
   border-radius: 1%;
   max-height: 65vh;
-  max-width: 45vw;
+  max-width: calc(100vw - 20vw - 10vw);
 }
 
 iframe, embed {

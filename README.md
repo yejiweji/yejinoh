@@ -13,30 +13,35 @@ This repo contains my art, programming and design portfolio pieces as a grade 12
 ## 💫 Pieces
 
 * Digital art
-* Pencil sketch
-* Canvas painting
+* Canvas acrylic painting
+* Pencil sketches
+* Pencil croquis
 * 3D modelling
+* Clay pottery
 * Game design
-* React app
-* CSS art
-* Website from scratch
-* Personalized cartoon
+* Character design
+* ReactJS app
+* Pure CSS art
+* HTML/CSS website from scratch
+* Personalized cartoons and posters
 * Animation
 
 ## 💫 Built With
 
 * HTML
 * CSS
-* SCSS (Sass)
-* JQuery
+* jQuery
 * ReactJS
 * React Bootstrap
-* Google Maps API
-* Google Calendar API
-* Food API
+* React Icons
+* Google Maps JavaScript API
+* React Big Calendar
+* Spoonacular Food API
 * Procreate
 * Blender
 * FireAlpaca
 * Acrylic painting
 * Ink pen
 * Pencil
+* Acrylic paint
+* Clay

@@ -201,27 +201,27 @@ body {
   height: 45vh;
   width: 23vw;
   top: 3vh;
-  left: 14vw;
+  left: 5vw;
 }
 #frame_1:after {
   content: "The Swimmer: view details";
 }
 #frame_2 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/character_design/family.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/surrealism/surreal_art.png");
   height: 40vh;
-  width: 23vw;
+  width: 48vw;
   top: 4vh;
-  left: 53vw;
+  left: 40vw;
 }
 #frame_2:after {
-  content: "The Family: view details";
+  content: "The Picnic: view details";
 }
 #frame_3 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/painting/not_myself_painting.png");
   height: 30vh;
-  width: 50vw;
+  width: 45vw;
   top: 9vh;
-  left: -4vw;
+  left: 1vw;
 }
 #frame_3:after {
   content: "Identity Crisis: view details";
@@ -374,10 +374,10 @@ body {
     box-shadow: 0 0 60px 60px #fef0c8;
   }
 }
-#lights_1 { left: calc(14vw + 0vw); }
-#lights_2 { left: calc(53vw + 0vw); }
-#lights_3 { left: -4vw; }
-#lights_4 { left: 22vw; }
+#lights_1 { left: calc(5vw + 0vw); }
+#lights_2 { left: calc(40vw + 45vw / 4); }
+#lights_3 { left: 0; }
+#lights_4 { left: 23vw; }
 #lights_5 { right: 1.5vw; }
 #lights_6 { left: calc(35vw + 0vw); }
 #lights_7 { right: calc(8vw - 2vw); }
@@ -404,7 +404,7 @@ body {
 .author_logo {
   width: 10vw;
   margin: auto;
-  margin-left: 0.8vw;
+  margin-left: 2vw;
 }
 .wall_panel {
   max-width: 7.5vw;

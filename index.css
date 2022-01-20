@@ -31,9 +31,10 @@ body {
 /* GALLERY NAME */
 .gallery_sign {
   position: absolute;
-  left: 45vw;
-  padding: 6vh 1vw;
+  left: 49vw;
+  padding: 7vh 1vw;
   font-size: 4.5vw;
+  font-weight: bold;
   display: flex;
 }
 .arrow_sign {
@@ -402,7 +403,7 @@ body {
 .author_logo {
   width: 10vw;
   margin: auto;
-  margin-left: 1.6vw;
+  margin-left: 0.6vw;
 }
 .wall_panel {
   max-width: 7.5vw;
@@ -470,6 +471,9 @@ body {
   color: red;
   font-size: 2.5vw;
   text-align: center;
+}
+.exit_sign {
+  font-weight: bolder;
 }
 .door:hover .exit_sign {
   display: none;

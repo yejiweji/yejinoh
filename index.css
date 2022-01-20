@@ -30,12 +30,13 @@ body {
 
 /* GALLERY NAME */
 .gallery_sign {
+  display: flex;
   position: absolute;
   left: 49vw;
   padding: 7vh 1vw;
-  font-size: 4.5vw;
-  font-weight: bold;
-  display: flex;
+}
+.gallery_sign img {
+  width: 25vw;
 }
 .arrow_sign {
   font-size: 11vw;

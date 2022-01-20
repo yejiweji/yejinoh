@@ -301,7 +301,7 @@ body {
   visibility: hidden;
 }
 #frame_10 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/podium.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/game_design/settings.png");
   height: 37vh;
   width: 17vw;
   top: 4vh;
@@ -311,17 +311,17 @@ body {
   content: "Lost Cat: view details";
 }
 #frame_11 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/react_app/food_planet.gif");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/react_app/food_planet_rendering.png");
   height: 37vh;
   width: 19vw;
   top: 4vh;
   left: 38vw;
 }
 #frame_11:after {
-  content: "The Food Planet: view details";
+  content: "Food Planet: view details";
 }
 #frame_12 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_poster.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_rendering.png");
   height: 37vh;
   width: 17vw;
   top: 4vh;

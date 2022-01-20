@@ -77,7 +77,7 @@ body {
   max-width: 45vw;
 }
 
-iframe, .frame embed {
+iframe, embed {
   height: 65vh;
   width: 45vw;
 }

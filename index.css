@@ -33,10 +33,10 @@ body {
   display: flex;
   position: absolute;
   left: 49vw;
-  padding: 7vh 1vw;
+  padding: 6.5vh 1vw;
 }
 .gallery_sign img {
-  width: 25vw;
+  width: 15vw;
 }
 .arrow_sign {
   font-size: 11vw;

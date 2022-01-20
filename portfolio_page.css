@@ -14,7 +14,7 @@ body {
 
 .label_images_wrapper {
   display: flex;
-  padding: 20px;
+  padding: 4vh 1vw;
 }
 
 /* WALL */
@@ -28,9 +28,9 @@ body {
 .back_button {
   position: absolute;
   color: #c19b7a;
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
-  margin: 10px 20px;
+  margin: 2vh 1vw;
 }
 
 /* LIGHTS */
@@ -38,41 +38,41 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
+  width: 40vw;
 }
 
 /* LABEL CARD */
 .label {
   width: 20vw;
-  padding: 10px;
-  border-radius: 3px;
+  padding: 3vh 2vw;
   background: white;
   color: black;
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  font-size: 0.9em;
+  margin-bottom: 1vh;
 }
 
 .title {
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
 }
 
 .title, .subtitle {
   color: #bf6524;
+  font-weight: bolder;
 }
 
 .title, .medium, .process_intention {
-  padding-bottom: 15px;
+  padding-bottom: 2vh;
 }
 
 /* IMAGES */
 .images_wrapper {
-  margin-left: 25px;
+  margin-left: 3vw;
 }
 
 .frame {
   border: 10px solid #1e2a4e;
-  border-radius: 5px;
+  border-radius: 1%;
   max-height: 65vh;
   max-width: 45vw;
 }
@@ -87,11 +87,11 @@ iframe, .frame embed {
   flex-flow: row;
   align-items: center;
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 3vh 0 0 0;
 }
 
 .thumbnail_images li {
-  margin-right: 20px;
+  margin-right: 2vw;
   list-style: none;
 }
 
@@ -102,8 +102,8 @@ iframe, .frame embed {
 
 /* SHADOWS */
 .frame, .label {
-  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: -1.1vw 1vw 0.5vw rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1.1vw 1vw 0.5vw rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1.1vw 1vw 0.5vw rgba(0, 0, 0, 0.3);
+  -o-box-shadow: -1.1vw 1vw 0.5vw rgba(0, 0, 0, 0.3);
 }

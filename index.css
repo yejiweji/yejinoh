@@ -227,44 +227,44 @@ body {
   content: "Identity Crisis: view details";
 }
 #frame_4 {
+  background-image: url("https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png");
+  height: 45vh;
+  width: 22vw;
   top: 10vh;
-  right: -2.2vw;
+  right: 2.5vw;
   z-index: 1;
-  border: none;
-  box-shadow: none;
 }
 #frame_4:after {
-  content: "To Clay: view details";
+  content: "Watermelon Pot: view details";
   left: -7vw;
-}
-#frame_4 iframe {
-  height: 50vh;
-  width: 30vw;
-  border: 9px solid #1e2a4e;
-  box-shadow: -10px 10px 7px -3px #616161;
-  -moz-box-shadow: -10px 10px 7px -3px #616161;
-  -webkit-box-shadow: -10px 10px 7px -3px #616161;
-  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_5 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/css_art/house.gif");
   height: 40vh;
   width: 22vw;
   top: 7vh;
-  left: 35vw;
+  left: 33vw;
 }
 #frame_5:after {
   content: "The House: view details";
 }
 #frame_6 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png");
-  height: 40vh;
-  width: 19vw;
   top: 7vh;
-  right: 8vw;
+  right: 2vw;
+  border: none;
+  box-shadow: none;
 }
 #frame_6:after {
-  content: "Watermelon Pot: view details";
+  content: "To Clay: view details";
+}
+#frame_6 iframe {
+  height: 40vh;
+  width: 28vw;
+  border: 9px solid #1e2a4e;
+  box-shadow: -10px 10px 7px -3px #616161;
+  -moz-box-shadow: -10px 10px 7px -3px #616161;
+  -webkit-box-shadow: -10px 10px 7px -3px #616161;
+  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_7 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/preview_recording.gif");
@@ -301,14 +301,14 @@ body {
   visibility: hidden;
 }
 #frame_10 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_poster.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/podium.png");
   height: 37vh;
   width: 17vw;
   top: 4vh;
   left: 8vw;
 }
 #frame_10:after {
-  content: "The Future: view details";
+  content: "Lost Cat: view details";
 }
 #frame_11 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/react_app/food_planet.gif");
@@ -321,14 +321,14 @@ body {
   content: "The Food Planet: view details";
 }
 #frame_12 {
-  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/podium.png");
+  background-image: url("https://yejiweji.github.io/yejinoh/src/portfolio_website/website_poster.png");
   height: 37vh;
   width: 17vw;
   top: 4vh;
   left: 70vw;
 }
 #frame_12:after {
-  content: "INSERT INSERT: view details";
+  content: "The Showcase: view details";
 }
 
 /* PODIUM */
@@ -379,8 +379,8 @@ body {
 #lights_3 { left: 0; }
 #lights_4 { left: 23vw; }
 #lights_5 { right: 1.5vw; }
-#lights_6 { left: calc(35vw + 0vw); }
-#lights_7 { right: calc(8vw - 2vw); }
+#lights_6 { left: calc(32vw + 0.5vw); }
+#lights_7 { right: calc(2vw + 2vw); }
 #lights_8 { left: calc(14vw + 0vw); }
 #lights_9 { left: calc(45vw - 7.5vw); }
 #lights_10 { right: calc(15vw - 1vw); }

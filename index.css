@@ -32,16 +32,16 @@ body {
 .gallery_sign {
   display: flex;
   position: absolute;
-  left: 49vw;
-  padding: 6.5vh 1vw;
+  right: 7vw;
+  padding: 5vh 1vw;
 }
 .gallery_sign img {
-  width: 15vw;
+  width: 18vw;
 }
 .arrow_sign {
   font-size: 11vw;
   animation: point 10s infinite;
-  margin: 0 3vw;
+  margin: auto 4vw;
 }
 
 @keyframes point {

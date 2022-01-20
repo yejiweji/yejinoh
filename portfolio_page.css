@@ -29,7 +29,7 @@ body {
 .back_button {
   position: absolute;
   color: #c19b7a;
-  font-size: 1em;
+  font-size: 1vw;
   text-decoration: none;
   margin: 2vh 1vw;
 }
@@ -48,12 +48,12 @@ body {
   padding: 3vh 2vw;
   background: white;
   color: black;
-  font-size: 0.9em;
+  font-size: 1vw;
   margin-bottom: 1vh;
 }
 
 .title {
-  font-size: 1.8em;
+  font-size: 1.7vw;
   text-align: center;
 }
 

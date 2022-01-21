@@ -182,9 +182,9 @@ body {
 .frame::after {
   content: "View details";
   position: absolute;
-  width: 5vw;
+  width: 5.5vw;
   top: 2vh;
-  left: -7.5vw;
+  left: -8vw;
   padding: 0.7vh 0.5vw;
   border-radius: 1%;
   background: white;

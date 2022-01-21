@@ -8,21 +8,12 @@ body {
 /* WRAPPERS */
 .wrapper {
   background: #fceddb;
-  width: 100vw;
-  height: 100vh;
   overflow: scroll;
 }
 
 .label_images_wrapper {
   display: flex;
   padding: 4vh 1vw;
-}
-
-/* WALL */
-.wall {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /* BACK BUTTON */
@@ -51,6 +42,7 @@ body {
   font-size: 1vw;
   margin-bottom: 1vh;
   line-height: 1.27vw;
+  margin-left: auto;
 }
 
 .title {
@@ -63,13 +55,14 @@ body {
   font-weight: bolder;
 }
 
-.title, .medium, .process_intention {
+.title, .medium {
   padding-bottom: 2vh;
 }
 
 /* IMAGES */
 .images_wrapper {
   margin-left: 3vw;
+  margin-right: auto;
 }
 
 .frame {

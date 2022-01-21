@@ -204,7 +204,7 @@ body {
   left: 5vw;
 }
 #frame_1:after {
-  content: "The Swimmer: view details";
+  content: "Swimmer: view details";
 }
 #frame_2 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/surrealism/surreal_art.png");
@@ -214,7 +214,7 @@ body {
   left: 40.5vw;
 }
 #frame_2:after {
-  content: "The Picnic: view details";
+  content: "A Midnight Picnic: view details";
 }
 #frame_3 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/painting/not_myself.png");
@@ -224,7 +224,7 @@ body {
   left: 1vw;
 }
 #frame_3:after {
-  content: "Identity Crisis: view details";
+  content: "Not Myself: view details";
 }
 #frame_4 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/pottery/pot_front.png");
@@ -235,7 +235,7 @@ body {
   z-index: 1;
 }
 #frame_4:after {
-  content: "Watermelon Pot: view details";
+  content: "Sick Of Fruit: view details";
   left: -7vw;
 }
 #frame_5 {
@@ -246,7 +246,7 @@ body {
   left: 33vw;
 }
 #frame_5:after {
-  content: "The House: view details";
+  content: "Toy House: view details";
 }
 #frame_6 {
   top: 7.5vh;
@@ -255,7 +255,7 @@ body {
   box-shadow: none;
 }
 #frame_6:after {
-  content: "To Clay: view details";
+  content: "For Clay: view details";
 }
 #frame_6 iframe {
   height: 40vh;
@@ -286,7 +286,7 @@ body {
   box-shadow: none;
 }
 #frame_8:after {
-  content: 'The Boy: view details';
+  content: 'Miraculous: view details';
   left: 2vw;
   top: 30vh;
 }
@@ -308,7 +308,7 @@ body {
   left: 8vw;
 }
 #frame_10:after {
-  content: "Lost Cat: view details";
+  content: "Last Train Home: view details";
 }
 #frame_11 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/react_app/food_planet_rendering.png");
@@ -328,7 +328,7 @@ body {
   left: 70vw;
 }
 #frame_12:after {
-  content: "The Showcase: view details";
+  content: "The Exhibition: view details";
 }
 
 /* PODIUM */

@@ -13,6 +13,8 @@ body {
 
 .label_images_wrapper {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   padding: 4vh 1vw;
 }
 
@@ -22,15 +24,14 @@ body {
   color: #c19b7a;
   font-size: 1vw;
   text-decoration: none;
-  margin: 2vh 1vw;
+  margin: 2.5vh 1.3vw;
 }
 
 /* LIGHTS */
 .lights {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40vw;
+  margin: 0 auto;
+  width: 38vw;
 }
 
 /* LABEL CARD */

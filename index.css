@@ -182,9 +182,9 @@ body {
 .frame::after {
   content: "View details";
   position: absolute;
-  width: 5.5vw;
+  width: 6vw;
   top: 2vh;
-  left: -8vw;
+  left: -8.3vw;
   padding: 0.7vh 0.5vw;
   border-radius: 1%;
   background: white;
@@ -203,7 +203,7 @@ body {
   top: 7.5vh;
   left: 5vw;
 }
-#frame_1:after {
+#frame_1::after {
   content: "Swimmer: view details";
 }
 #frame_2 {
@@ -213,7 +213,7 @@ body {
   top: 7.5vh;
   left: 40.5vw;
 }
-#frame_2:after {
+#frame_2::after {
   content: "A Midnight Picnic: view details";
 }
 #frame_3 {
@@ -223,7 +223,7 @@ body {
   top: 9vh;
   left: 1vw;
 }
-#frame_3:after {
+#frame_3::after {
   content: "Not Myself: view details";
 }
 #frame_4 {
@@ -234,7 +234,7 @@ body {
   right: 2.5vw;
   z-index: 1;
 }
-#frame_4:after {
+#frame_4::after {
   content: "Sick Of Fruit: view details";
   left: -7vw;
 }
@@ -245,7 +245,7 @@ body {
   top: 7.5vh;
   left: 33vw;
 }
-#frame_5:after {
+#frame_5::after {
   content: "Toy House: view details";
 }
 #frame_6 {
@@ -254,7 +254,7 @@ body {
   border: none;
   box-shadow: none;
 }
-#frame_6:after {
+#frame_6::after {
   content: "For Clay: view details";
 }
 #frame_6 iframe {
@@ -273,7 +273,7 @@ body {
   top: 9vh;
   left: 14vw;
 }
-#frame_7:after {
+#frame_7::after {
   visibility: hidden;
 }
 #frame_8 {
@@ -285,9 +285,9 @@ body {
   border: none;
   box-shadow: none;
 }
-#frame_8:after {
+#frame_8::after {
   content: 'Miraculous: view details';
-  left: 2vw;
+  left: 1.5vw;
   top: 30vh;
 }
 #frame_9 {
@@ -297,7 +297,7 @@ body {
   top: 9vh;
   right: 15vw;
 }
-#frame_9:after {
+#frame_9::after {
   visibility: hidden;
 }
 #frame_10 {
@@ -307,7 +307,7 @@ body {
   top: 8vh;
   left: 8vw;
 }
-#frame_10:after {
+#frame_10::after {
   content: "Last Train Home: view details";
 }
 #frame_11 {
@@ -317,7 +317,7 @@ body {
   top: 8vh;
   left: 39vw;
 }
-#frame_11:after {
+#frame_11::after {
   content: "Food Planet: view details";
 }
 #frame_12 {
@@ -327,7 +327,7 @@ body {
   top: 8vh;
   left: 70vw;
 }
-#frame_12:after {
+#frame_12::after {
   content: "The Exhibition: view details";
 }
 

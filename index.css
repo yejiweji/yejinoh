@@ -477,3 +477,114 @@ body {
 .door:hover .thank_you_sign {
   display: unset;
 }
+
+
+/* RESPONSIVE - SMALL SCREENS */
+@media only screen and (max-width: 600px) {
+  .gallery_sign img {
+    width: 24vw;
+  }
+
+  .frame {
+    border-width: 5px;
+  }
+  .frame::after {
+    left: -9.5vw;
+  }
+  #frame_1 {
+    height: 22vh;
+  }
+  #frame_2 {
+    height: 17vh;
+  }
+  #frame_3 {
+    height: 15vh;
+  }
+  #frame_4 {
+    height: 25vh;
+    width: 29vw;
+    right: -3.5vw;
+  }
+  #frame_5 {
+    height: 17vh;
+  }
+  #frame_6 {
+    height: 17vh;
+  }
+  #frame_7 {
+    height: 18vh;
+  }
+  #frame_8 {
+    width: 19.5vw;
+    left: 40vw;
+  }
+  #frame_8::after {
+    left: 6.5vw;
+    top: 20vh;
+  }
+  .podium {
+    width: 45vw;
+    left: 21vw;
+  }
+  #frame_9 {
+    height: 18vh;
+  }
+  #frame_10 {
+    height: 19vh;
+  }
+  #frame_11 {
+    height: 19vh;
+  }
+  #frame_12 {
+    height: 19vh;
+  }
+
+  .wall_panel {
+    max-width: 11.5vw;
+  }
+  .cv_section {
+    right: -17vw;
+  }
+  .letter_of_intent_section,
+  .cv_section,
+  .reference_letters_section {
+    width: 13vw;
+    height: 11vh;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .letter_of_intent_screenshot,
+  .cv_screenshot,
+  .reference_letter_screenshot {
+    height: 9vh;
+  }
+
+  #lights_14 {
+    left: 39vw;
+  }
+  #lights_15 {
+    right: -13vw;
+  }
+  #lights_16 {
+    left: calc(34vw + 6vw);
+  }
+
+  .pole {
+    height: 28vh;
+  }
+  .poles {
+    height: 26vh;
+  }
+  #pole_1,
+  #pole_3 {
+    width: 37vw;
+  }
+  #pole_2 {
+    width: 37vw;
+    right: calc(-18vw);
+  }
+
+  .door {
+    height: 45vh;
+  }
+}

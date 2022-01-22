@@ -520,7 +520,7 @@ body {
   }
   #frame_8::after {
     left: 6.5vw;
-    top: 20vh;
+    top: 29vh;
   }
   .podium {
     width: 45vw;
@@ -537,36 +537,6 @@ body {
   }
   #frame_12 {
     height: 19vh;
-  }
-
-  .wall_panel {
-    max-width: 11.5vw;
-  }
-  .cv_section {
-    right: -17vw;
-  }
-  .letter_of_intent_section,
-  .cv_section,
-  .reference_letters_section {
-    width: 13vw;
-    height: 11vh;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .letter_of_intent_screenshot,
-  .cv_screenshot,
-  .reference_letter_screenshot {
-    height: 9vh;
-  }
-
-  #lights_14 {
-    left: 39vw;
-  }
-  #lights_15 {
-    right: -13vw;
-  }
-  #lights_16 {
-    left: calc(34vw + 6vw);
   }
 
   .pole {

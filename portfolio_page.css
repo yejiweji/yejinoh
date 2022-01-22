@@ -97,6 +97,11 @@ iframe, embed {
 .thumbnail_images li {
   margin-right: 2vw;
   list-style: none;
+  opacity: 0.6;
+}
+
+.thumbnail_images li:hover {
+  opacity: 1;
 }
 
 .thumbnail_images img {

@@ -249,22 +249,14 @@ body {
   content: "Toy House: view details";
 }
 #frame_6 {
+  background-image: url("https://yejiweji.github.io/yejinoh/src/animation/thumbnail.png");
   top: 7.5vh;
   right: 2vw;
-  border: none;
-  box-shadow: none;
+  height: 40vh;
+  width: 28vw;
 }
 #frame_6::after {
   content: "For Clay: view details";
-}
-#frame_6 iframe {
-  height: 40vh;
-  width: 28vw;
-  border: 9px solid #1e2a4e;
-  box-shadow: -10px 10px 7px -3px #616161;
-  -moz-box-shadow: -10px 10px 7px -3px #616161;
-  -webkit-box-shadow: -10px 10px 7px -3px #616161;
-  -o-box-shadow: -10px 10px 7px -3px #616161;
 }
 #frame_7 {
   background-image: url("https://yejiweji.github.io/yejinoh/src/3d_modelling/preview_recording.gif");
@@ -409,12 +401,10 @@ body {
 .wall_panel {
   max-width: 7.5vw;
   font-size: 1vw;
-  background: white;
+  background: #a5aac1;
   text-align: center;
   padding: 3vh 1.5vw 0 1.5vw;
-  box-shadow: -0.7vw 0.7vw 0.7vw -0.3vw #616161;
   -moz-box-shadow: -0.7vw 0.7vw 0.7vw -0.3vw #616161;
-  -webkit-box-shadow: -0.7vw 0.7vw 0.7vw -0.3vw #616161;
   -o-box-shadow: -0.7vw 0.7vw 0.7vw -0.3vw #616161;
 }
 .panel_title {

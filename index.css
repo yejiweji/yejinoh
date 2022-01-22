@@ -408,7 +408,7 @@ body {
   -o-box-shadow: -0.7vw 0.7vw 0.7vw -0.3vw #616161;
 }
 .panel_title {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #5a5a5a;
   padding-bottom: 1.5vh;
   font-weight: bolder;
 }

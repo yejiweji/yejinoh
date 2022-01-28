@@ -157,7 +157,7 @@ iframe, embed {
 
   .thumbnail_images {
     flex-wrap: wrap;
-    justify-content: space-between;
+    padding-left: 2vw;
   }
 
   .house_outer_wrapper {
